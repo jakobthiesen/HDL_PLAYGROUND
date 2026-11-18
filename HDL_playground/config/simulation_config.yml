@@ -1,0 +1,33 @@
+current_simulation_settings:
+  gtkw_file: ''
+  profile_name: custom
+  simulation_time: 80
+  time_prefix: us
+  waveform_format: ghw
+default_simulation_settings:
+  simulation_time: 1000
+  time_prefix: ns
+simulation_time_presets:
+  extended:
+    description: "Extended test - 10\u03BCs"
+    simulation_time: 10000
+    time_prefix: ns
+  quick:
+    description: Quick test - 100ns
+    simulation_time: 100
+    time_prefix: ns
+  standard:
+    description: "Standard test - 1\u03BCs"
+    simulation_time: 1000
+    time_prefix: ns
+simulation_types:
+- behavioral
+- post-synthesis
+- post-implementation
+supported_time_prefixes:
+- fs
+- ps
+- ns
+- us
+- ms
+- sec

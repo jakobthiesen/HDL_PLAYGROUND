@@ -1,0 +1,39 @@
+Automatic Timing Optimization - SPI_MEM_TOP
+Stop: Reached the trial limit
+Best trial: 11    limiting Fmax: 52.51 MHz
+Limits: max 28 trials, time 20 min
+Objective: fastest implementation (best Fmax of each combination)
+Proposals: 60% TPE, 20% local steps around strong results, 20% random
+Early stop: best Fmax improved by less than 1% over the last 20 trials (stagnation, not a proof of the optimum)
+Exploration seeds: [1, 2]    Refinement seeds: [3, 4, 5]
+
+Trial  Phase      Seed    Beta   Alpha  Crit  Weight  Ripup  Alt      Fmax       Slack    Time  Status
+------------------------------------------------------------------------------------------------------
+    1  explore       1   0.900   0.100     2      10  no     no      47.25         n/a     20s  PASS
+    2  explore       1   0.900   0.061     2      10  no     no      39.64         n/a     19s  PASS
+    3  explore       1   0.852   0.138     4      12  no     no      45.91         n/a     19s  PASS
+    4  explore       1   0.726   0.134     5      22  yes    yes     40.93         n/a     38s  PASS
+    5  explore       1   0.760   0.132     5      22  yes    yes     36.49         n/a     23s  PASS
+    6  explore       1   0.714   0.122     4      26  yes    yes     47.09         n/a     23s  PASS
+    7  explore       1   0.591   0.103     3       8  yes    yes     35.62         n/a     18s  PASS
+    8  explore       1   0.768   0.109     4      26  no     yes     41.34         n/a     22s  PASS
+    9  explore       1   0.500   0.096     2      16  no     no      45.12         n/a     14s  PASS
+   10  explore       1   0.810   0.143     4      12  no     yes     40.65         n/a     20s  PASS
+   11  explore       1   0.887   0.131     5       9  yes    no      52.51         n/a     20s  BEST
+   12  explore       1   0.900   0.123     1      26  yes    no      47.38         n/a     19s  PASS
+   13  explore       1   0.900   0.124     1      28  yes    no      49.86         n/a     18s  PASS
+   14  explore       1   0.900   0.130     1      18  yes    no      42.46         n/a     19s  PASS
+   15  refine        2   0.887   0.131     5       9  yes    no      43.01         n/a     15s  PASS
+   16  refine        2   0.900   0.124     1      28  yes    no      44.44         n/a     17s  PASS
+   17  refine        2   0.900   0.123     1      26  yes    no      39.89         n/a     21s  PASS
+   18  refine        3   0.887   0.131     5       9  yes    no      38.62         n/a     17s  PASS
+   19  refine        3   0.900   0.124     1      28  yes    no      43.87         n/a     21s  PASS
+   20  refine        3   0.900   0.123     1      26  yes    no      40.95         n/a     19s  PASS
+   21  refine        4   0.887   0.131     5       9  yes    no      47.29         n/a     16s  PASS
+   22  refine        4   0.900   0.124     1      28  yes    no      44.91         n/a     19s  PASS
+   23  refine        4   0.900   0.123     1      26  yes    no      46.58         n/a     23s  PASS
+   24  explore       1   0.862   0.109     1      26  yes    no      46.94         n/a     21s  PASS
+   25  explore       1   0.591   0.093     3      11  yes    yes     38.79         n/a     21s  PASS
+   26  explore       1   0.896   0.125     1      25  yes    no      45.87         n/a     16s  PASS
+   27  explore       1   0.900   0.187     5      28  yes    no      44.05         n/a     17s  PASS
+   28  explore       1   0.892   0.124     1      10  yes    no      40.23         n/a     18s  PASS

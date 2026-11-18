@@ -1,0 +1,22 @@
+v 4
+file / "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\Zector_DDS_IP.vhdl" "6eb5b824f0d75cdf960f6c4f7ba3ba541b10e5b9" "20261116110642.632":
+  entity zector_dds_ip at 1( 0) + 0 on 369;
+  architecture rtl of zector_dds_ip at 33( 1039) + 0 on 370;
+file / "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\Zector_SPI_IP.vhdl" "c7b379bfd6dd9a4800f7dd8a50edaff0af14d97e" "20261116110642.651":
+  entity zector_spi_ip at 1( 0) + 0 on 371;
+  architecture rtl of zector_spi_ip at 25( 766) + 0 on 372;
+file / "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\testbench\SPI_tb.vhdl" "03d4da9068fd9ea78b0b61829d60b5ecf42c104a" "20261116110642.752":
+  entity spi_tb at 2( 2) + 0 on 381;
+  architecture sim of spi_tb at 9( 109) + 0 on 382;
+file / "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\bram_dp_sin_lut.vhdl" "c494f96135cd481fb40c3e0201d604991a62ab2e" "20261116110642.680":
+  entity bram_dp_sin_lut at 1( 0) + 0 on 373;
+  architecture rtl of bram_dp_sin_lut at 25( 755) + 0 on 374;
+file / "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\old.vhdl" "5f53f549648239f1f08cf3ca777e4aa9b303c961" "20261116110642.717":
+  entity internal_ram at 1( 0) + 0 on 377;
+  architecture behavioral of internal_ram at 25( 941) + 0 on 378;
+file / "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\cfg_registers.vhdl" "aaa07d5b54e92e2e588620c322ff6dcf0f0cb93c" "20261116110642.696":
+  entity cfg_registers at 1( 0) + 0 on 375;
+  architecture rtl of cfg_registers at 25( 773) + 0 on 376;
+file / "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\SPI_MEM_TOP.vhdl" "c73be98d8cebee6ac96c7d0ada70a42856b7f959" "20261116110642.736":
+  entity spi_mem_top at 1( 0) + 0 on 379;
+  architecture rtl of spi_mem_top at 16( 418) + 0 on 380;

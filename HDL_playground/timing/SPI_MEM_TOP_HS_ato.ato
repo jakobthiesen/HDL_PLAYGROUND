@@ -1,0 +1,16 @@
+Automatic Timing Optimization - SPI_MEM_TOP_HS
+Stop: Stopped
+Best trial: 3    limiting Fmax: 47.49 MHz
+Limits: max 28 trials, time 20 min
+Objective: fastest implementation (best Fmax of each combination)
+Proposals: 60% TPE, 20% local steps around strong results, 20% random
+Early stop: best Fmax improved by less than 1% over the last 20 trials (stagnation, not a proof of the optimum)
+Exploration seeds: [1, 2]    Refinement seeds: [3, 4, 5]
+
+Trial  Phase      Seed    Beta   Alpha  Crit  Weight  Ripup  Alt      Fmax       Slack    Time  Status
+------------------------------------------------------------------------------------------------------
+    1  explore       1   0.900   0.100     2      10  no     no      33.30         n/a     15s  PASS
+    2  explore       1   0.817   0.101     2      10  no     no      42.14         n/a     14s  PASS
+    3  explore       1   0.698   0.160     4      13  no     no      47.49         n/a     14s  BEST
+    4  explore       1   0.682   0.168     4      30  no     yes     38.37         n/a     36s  PASS
+    5  explore       1   0.900   0.099     2      11  no     no        n/a         n/a      4s  STOPPED

@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v4.0.0-prealpha (7d7b4db) (w)1999-2022 BSI
+[*] Thu Nov 12 13:33:36 2026
+[*]
+[dumpfile] "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\sim\behavioral\SPI_tb.ghw"
+[dumpfile_mtime] "Thu Nov 12 13:32:24 2026"
+[dumpfile_size] 40316
+[savefile] "C:\Users\jakob\Desktop\HDL_playground\HDL_playground\sim\behavioral\SPI_tb.gtkw"
+[timestart] 0
+[size] 1272 600
+[pos] -1 -1
+*0.000000 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] top.
+[treeopen] top.spi_tb.
+[sst_width] 246
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@28
+top.spi_tb.spi_clk
+top.spi_tb.spi_mosi
+top.spi_tb.spi_ncs
+top.spi_tb.rw
+top.spi_tb.update
+top.spi_tb.cfg_dut.i_we
+top.spi_tb.cfg_dut.i_update
+@29
+top.spi_tb.spi_dut.rw_reg
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,4 @@
+# Generated tool and project-manager logs
+/logs/*.log
+# Generated timing diagrams
+/timing/*.svg

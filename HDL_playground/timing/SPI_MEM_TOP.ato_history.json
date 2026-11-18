@@ -1,0 +1,369 @@
+{
+  "fingerprint": "bdc8999b82bfa315849a211a3a035e9257bb208c90cd7a0cffcbf11b5ee53c4b",
+  "trials": [
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.1,
+        "heap_critexp": 2,
+        "heap_timingweight": 10,
+        "timing_driven_ripup": false,
+        "router2_alt_weights": false
+      },
+      "fmax": 47.254512786865234,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.061,
+        "heap_critexp": 2,
+        "heap_timingweight": 10,
+        "timing_driven_ripup": false,
+        "router2_alt_weights": false
+      },
+      "fmax": 39.636924743652344,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.852,
+        "heap_alpha": 0.138,
+        "heap_critexp": 4,
+        "heap_timingweight": 12,
+        "timing_driven_ripup": false,
+        "router2_alt_weights": false
+      },
+      "fmax": 45.91157531738281,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.726,
+        "heap_alpha": 0.134,
+        "heap_critexp": 5,
+        "heap_timingweight": 22,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": true
+      },
+      "fmax": 40.926578521728516,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.76,
+        "heap_alpha": 0.132,
+        "heap_critexp": 5,
+        "heap_timingweight": 22,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": true
+      },
+      "fmax": 36.49368667602539,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.714,
+        "heap_alpha": 0.122,
+        "heap_critexp": 4,
+        "heap_timingweight": 26,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": true
+      },
+      "fmax": 47.085411071777344,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.591,
+        "heap_alpha": 0.103,
+        "heap_critexp": 3,
+        "heap_timingweight": 8,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": true
+      },
+      "fmax": 35.61634063720703,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.768,
+        "heap_alpha": 0.109,
+        "heap_critexp": 4,
+        "heap_timingweight": 26,
+        "timing_driven_ripup": false,
+        "router2_alt_weights": true
+      },
+      "fmax": 41.34452438354492,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.5,
+        "heap_alpha": 0.096,
+        "heap_critexp": 2,
+        "heap_timingweight": 16,
+        "timing_driven_ripup": false,
+        "router2_alt_weights": false
+      },
+      "fmax": 45.11820983886719,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.81,
+        "heap_alpha": 0.143,
+        "heap_critexp": 4,
+        "heap_timingweight": 12,
+        "timing_driven_ripup": false,
+        "router2_alt_weights": true
+      },
+      "fmax": 40.65040588378906,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.887,
+        "heap_alpha": 0.131,
+        "heap_critexp": 5,
+        "heap_timingweight": 9,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 52.51273727416992,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.123,
+        "heap_critexp": 1,
+        "heap_timingweight": 26,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 47.38438034057617,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.124,
+        "heap_critexp": 1,
+        "heap_timingweight": 28,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 49.85541915893555,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.13,
+        "heap_critexp": 1,
+        "heap_timingweight": 18,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 42.46284484863281,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.887,
+        "heap_alpha": 0.131,
+        "heap_critexp": 5,
+        "heap_timingweight": 9,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 43.00890350341797,
+      "seed": 2,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.124,
+        "heap_critexp": 1,
+        "heap_timingweight": 28,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 44.43851852416992,
+      "seed": 2,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.123,
+        "heap_critexp": 1,
+        "heap_timingweight": 26,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 39.89149475097656,
+      "seed": 2,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.887,
+        "heap_alpha": 0.131,
+        "heap_critexp": 5,
+        "heap_timingweight": 9,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 38.62047576904297,
+      "seed": 3,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.124,
+        "heap_critexp": 1,
+        "heap_timingweight": 28,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 43.867347717285156,
+      "seed": 3,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.123,
+        "heap_critexp": 1,
+        "heap_timingweight": 26,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 40.946685791015625,
+      "seed": 3,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.887,
+        "heap_alpha": 0.131,
+        "heap_critexp": 5,
+        "heap_timingweight": 9,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 47.28803253173828,
+      "seed": 4,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.124,
+        "heap_critexp": 1,
+        "heap_timingweight": 28,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 44.90748977661133,
+      "seed": 4,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.123,
+        "heap_critexp": 1,
+        "heap_timingweight": 26,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 46.5831298828125,
+      "seed": 4,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.862,
+        "heap_alpha": 0.109,
+        "heap_critexp": 1,
+        "heap_timingweight": 26,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 46.94174575805664,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.591,
+        "heap_alpha": 0.093,
+        "heap_critexp": 3,
+        "heap_timingweight": 11,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": true
+      },
+      "fmax": 38.794273376464844,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.896,
+        "heap_alpha": 0.125,
+        "heap_critexp": 1,
+        "heap_timingweight": 25,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 45.87366485595703,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.9,
+        "heap_alpha": 0.187,
+        "heap_critexp": 5,
+        "heap_timingweight": 28,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 44.052860260009766,
+      "seed": 1,
+      "success": true
+    },
+    {
+      "params": {
+        "heap_beta": 0.892,
+        "heap_alpha": 0.124,
+        "heap_critexp": 1,
+        "heap_timingweight": 10,
+        "timing_driven_ripup": true,
+        "router2_alt_weights": false
+      },
+      "fmax": 40.2301139831543,
+      "seed": 1,
+      "success": true
+    }
+  ]
+}
