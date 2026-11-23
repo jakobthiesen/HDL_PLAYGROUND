@@ -1,35 +1,84 @@
+CFG_REG_BANK_IP:
+  gatemate_dff: false
+  gatemate_retime: false
+  rtl_diagram: false
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\CFG_REG_BANK_IP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-21 22:35:10'
+  use_gatemate: true
 DDS_HS_TOP:
   gatemate_dff: false
   gatemate_retime: false
-  source_file: C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\DDS_HS_TOP.vhdl
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\DDS_HS_TOP.vhdl
   strategy: balanced
   timestamp: '2026-11-18 11:48:53'
+  use_gatemate: true
+DDS_TOP:
+  gatemate_dff: false
+  gatemate_retime: false
+  rtl_diagram: false
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\DDS_TOP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-22 15:54:27'
+  use_gatemate: true
+REFRESH_SCH:
+  gatemate_dff: false
+  gatemate_retime: false
+  rtl_diagram: false
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\REFRESH_SCH.vhdl
+  strategy: balanced
+  timestamp: '2026-11-21 18:16:00'
   use_gatemate: true
 SPI_MEM_TOP:
   gatemate_dff: false
   gatemate_retime: false
-  source_file: C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\SPI_MEM_TOP.vhdl
+  rtl_diagram: false
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\SPI_MEM_TOP.vhdl
   strategy: balanced
-  timestamp: '2026-11-18 11:36:30'
+  timestamp: '2026-11-22 15:52:04'
   use_gatemate: true
 SPI_MEM_TOP_HS:
   gatemate_dff: false
   gatemate_retime: false
-  source_file: C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\SPI_MEM_HS_DDS_TOP.vhdl
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\SPI_MEM_HS_DDS_TOP.vhdl
   strategy: balanced
   timestamp: '2026-11-18 11:35:07'
+  use_gatemate: true
+SPI_SLAVE_IP:
+  gatemate_dff: false
+  gatemate_retime: false
+  rtl_diagram: false
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\SPI_SLAVE_IP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-21 19:26:08'
+  use_gatemate: true
+Zector_40K_DP_BRAM_IP:
+  gatemate_dff: false
+  gatemate_retime: false
+  rtl_diagram: false
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\Zector_40k_DP_BRAM_IP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-20 15:05:43'
+  use_gatemate: true
+Zector_CFG_REGISTERS_IP:
+  gatemate_dff: false
+  gatemate_retime: false
+  rtl_diagram: false
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\Zector_CFG_REGISTERS_IP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-20 18:03:03'
   use_gatemate: true
 Zector_SPI_IP:
   gatemate_dff: false
   gatemate_retime: false
-  source_file: C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\Zector_SPI_IP.vhdl
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\Zector_SPI_IP.vhdl
   strategy: balanced
   timestamp: '2026-11-16 13:54:18'
   use_gatemate: true
-cfg_registers:
+multiplier_top:
   gatemate_dff: false
   gatemate_retime: false
-  source_file: C:\Users\jakob\Desktop\HDL_playground\HDL_playground\src\cfg_registers.vhdl
+  source_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\HDL_playground\src\multiplier_top.vhdl
   strategy: balanced
-  timestamp: '2026-11-16 12:56:05'
+  timestamp: '2026-11-19 18:01:33'
   use_gatemate: true

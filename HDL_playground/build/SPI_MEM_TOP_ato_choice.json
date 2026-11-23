@@ -1,8 +1,0 @@
-{
-  "seed": 1,
-  "trial": 11,
-  "best": true,
-  "selection": "ato_best",
-  "impl_path": "C:\\Users\\jakob\\Desktop\\HDL_playground\\HDL_playground\\build\\SPI_MEM_TOP_impl_ato_011.txt",
-  "fmax": 52.51273727416992
-}

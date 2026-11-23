@@ -60,23 +60,32 @@ void setup() {
   digitalWrite(FPGA_nCS, HIGH);
   delay(100);
   tx_spi(0, 429497);
-  // tx_spi(1, 10000);
-  Serial.println("To ADDR 31: 1234567");
-  tx_spi(31, 1234567);
+  tx_spi(1, 0);
+  tx_spi(2, 15000);
+  tx_spi(3, 0);
   uint32_t rx_data = 0;
-  rx_spi(31,&rx_data);
-  Serial.print("Data Read from ADDR 31: ");
+
+  rx_spi(0,&rx_data);
+  Serial.print("Data Read: ");
+  Serial.println(rx_data);
+
+  rx_spi(1,&rx_data);
+  Serial.print("Data Read: ");
+  Serial.println(rx_data);
+
+  rx_spi(2,&rx_data);
+  Serial.print("Data Read: ");
+  Serial.println(rx_data);
+
+  rx_spi(3,&rx_data);
+  Serial.print("Data Read: ");
   Serial.println(rx_data);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  // digitalWrite(SPI_CLK, HIGH);
+  // tx_spi(1, 2147483648);
   // delay(1);
-  // digitalWrite(SPI_CLK, LOW);
+  // tx_spi(1, 0);
   // delay(1);
-  // tx_spi(2, 2147483648);
-  // delayMicroseconds(100);
-  // tx_spi(2, 0);
-  // delayMicroseconds(100);
 }

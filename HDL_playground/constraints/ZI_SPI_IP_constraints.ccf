@@ -55,17 +55,19 @@
 #
 
 Net   "clk_10_MHz"  Loc = "IO_SB_A8" | SCHMITT_TRIGGER=true;
+Net   "clk_dds"  Loc = "IO_WC_A0" | SCHMITT_TRIGGER=true;
 
-Net "spi_clk" Loc = "IO_WC_A8";
-Net "spi_mosi" Loc = "IO_WC_B8";
+Net "spi_clk" Loc = "IO_WC_A8" | FF_IBF=true; 
+Net "spi_mosi" Loc = "IO_WC_B8" | FF_IBF=true;
 Net "spi_miso" Loc = "IO_WC_B5";
-Net "spi_ncs" Loc = "IO_WC_A5";
+Net "spi_ncs" Loc = "IO_WC_A5" | FF_IBF=true;
 
-Net "dac_out[7]" Loc = "IO_SA_A0";
-Net "dac_out[6]" Loc = "IO_SA_B0";
-Net "dac_out[5]" Loc = "IO_SA_A3";
-Net "dac_out[4]" Loc = "IO_SA_B3";
-Net "dac_out[3]" Loc = "IO_SA_A5";
-Net "dac_out[2]" Loc = "IO_SA_B5";
-Net "dac_out[1]" Loc = "IO_SA_A8";
-Net "dac_out[0]" Loc = "IO_SA_B8";
+Net "dac_out[7]" Loc = "IO_SA_A0" | FF_OBF=true;
+Net "dac_out[6]" Loc = "IO_SA_B0" | FF_OBF=true;
+Net "dac_out[5]" Loc = "IO_SA_A3" | FF_OBF=true;
+Net "dac_out[4]" Loc = "IO_SA_B3" | FF_OBF=true;
+Net "dac_out[3]" Loc = "IO_SA_A5" | FF_OBF=true;
+Net "dac_out[2]" Loc = "IO_SA_B5" | FF_OBF=true;
+Net "dac_out[1]" Loc = "IO_SA_A8" | FF_OBF=true;
+Net "dac_out[0]" Loc = "IO_SA_B8" | FF_OBF=true;
+

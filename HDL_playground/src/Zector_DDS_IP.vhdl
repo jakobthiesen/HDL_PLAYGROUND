@@ -78,6 +78,10 @@ architecture rtl of Zector_DDS_IP is
     -- -- Stage 7: Combine partial products
     signal scale_combined : signed(36 downto 0);
 
+    signal scale_reg    : signed(15 downto 0);
+    signal m_reg        : unsigned(31 downto 0);
+    signal phase_reg    : signed(31 downto 0);
+
 begin
 
     -- Generic cfg validation
@@ -100,10 +104,20 @@ begin
         severity failure;
 
 
+    
+    register_settings : process(clk)
+    begin
+        if rising_edge(clk) then
+            m_reg <= M;
+            phase_reg <= phase;
+            scale_reg <= scale;
+        end if;
+    end process;
+
     -- DDS pipelined logic Follows:
     -- ===================================
 
-    phase_word <= accumulator + unsigned(dummy_phase); -- The phase offset for the sine generation
+    phase_word <= accumulator + unsigned(phase_reg); -- The phase offset for the sine generation
 
     --The two ROM addresses used for interpolation
     lut_addr_0 <= phase_word(ACCUMUlATOR_WIDTH-1 downto ACCUMULATOR_WIDTH-LUT_ADDR_WIDTH);
@@ -123,7 +137,7 @@ begin
     begin
         if rising_edge(clk) then
             --Stage 1: accumulate phase
-            accumulator <= accumulator+dummy_m;
+            accumulator <= accumulator+m_reg;
 
             --Stage 2: Match fraction to BRAM read
             fraction_reg <= phase_word(ACCUMULATOR_WIDTH-LUT_ADDR_WIDTH-1 downto ACCUMULATOR_WIDTH-LUT_ADDR_WIDTH-FRACTION_SIZE); --Start where LUT addr ends, and go 8 down to for the fraction
@@ -157,10 +171,10 @@ begin
 
             -- Stage 6: Calculate two partial products
             scale_lo_product <=
-                interp_reg * signed('0' & dummy_scale(7 downto 0));
+                interp_reg * signed('0' & scale_reg(7 downto 0));
 
             scale_hi_product <=
-                interp_reg * dummy_scale(15 downto 8);
+                interp_reg * scale_reg(15 downto 8);
 
 
             -- Stage 6: Calculate two partial products

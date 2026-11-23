@@ -1,0 +1,20 @@
+Automatic Timing Optimization - multiplier_top
+Stop: Stopped
+Best trial: none
+Limits: max 40 trials, time 20 min
+Objective: fastest implementation (best Fmax of each combination)
+Proposals: 60% TPE, 20% local steps around strong results, 20% random
+Early stop: best Fmax improved by less than 1% over the last 20 trials (stagnation, not a proof of the optimum)
+Exploration seeds: [1, 2]    Refinement seeds: [3, 4, 5]
+
+Trial  Phase      Seed    Beta   Alpha  Crit  Weight  Ripup  Alt      Fmax       Slack    Time  Status
+------------------------------------------------------------------------------------------------------
+    1  explore       1   0.900   0.100     2      10  no     no     142.49         n/a      7s  FAIL
+    2  explore       1   0.607   0.177     3      14  no     yes    127.28         n/a      7s  FAIL
+    3  explore       1   0.704   0.066     3      13  no     yes    158.20         n/a      7s  FAIL
+    4  explore       1   0.900   0.086     3      13  no     yes    149.59         n/a      9s  FAIL
+    5  explore       1   0.582   0.184     3      14  no     yes    171.32         n/a      7s  FAIL
+    6  explore       1   0.848   0.051     3      28  no     no     123.26         n/a      7s  FAIL
+    7  explore       1   0.788   0.050     3      13  no     yes    127.63         n/a      8s  FAIL
+    8  explore       1   0.900   0.183     1      13  no     yes    135.98         n/a     10s  FAIL
+    9  explore       1   0.719   0.050     2      13  no     yes       n/a         n/a      2s  STOPPED

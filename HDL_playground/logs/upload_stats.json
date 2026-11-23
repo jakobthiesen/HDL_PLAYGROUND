@@ -1,7 +1,7 @@
 {
-  "sram_uploads": 18,
+  "sram_uploads": 8,
   "flash_uploads": 0,
-  "total_uploads": 18,
-  "last_upload": "DDS_HS_TOP (SRAM) - 11:49:33",
-  "last_upload_time": "2026-11-18T11:49:33.951444"
+  "total_uploads": 8,
+  "last_upload": "SPI_MEM_TOP (SRAM) - 15:56:11",
+  "last_upload_time": "2026-11-22T15:56:11.787226"
 }
