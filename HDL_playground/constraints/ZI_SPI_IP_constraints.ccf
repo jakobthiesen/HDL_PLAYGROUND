@@ -71,3 +71,8 @@ Net "dac_out[2]" Loc = "IO_SA_B5" | FF_OBF=true;
 Net "dac_out[1]" Loc = "IO_SA_A8" | FF_OBF=true;
 Net "dac_out[0]" Loc = "IO_SA_B8" | FF_OBF=true;
 
+start floorplanning
+top spi_slave; pB:x110y0x160y35
+end floorplanning
+
+

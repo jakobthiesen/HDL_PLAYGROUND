@@ -1,0 +1,22 @@
+v 4
+file / "C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl" "853aad1a762d9dba91b5b2f9900a08bd56e4da28" "20261124203344.269":
+  entity zector_40k_dp_bram_ip at 2( 2) + 0 on 103;
+  architecture rtl of zector_40k_dp_bram_ip at 31( 862) + 0 on 104;
+file / "C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl" "39ca3250622430bf6db22e53964673d9a1fe7b9d" "20261124203344.114":
+  entity spi_slave_ctrl3_ip at 1( 0) + 0 on 99;
+  architecture rtl of spi_slave_ctrl3_ip at 27( 832) + 0 on 100;
+file / "C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl" "9ba22b12da58f5bc17920273eddf801ec39128df" "20261124203344.345":
+  entity spi_slave_top at 1( 0) + 0 on 105;
+  architecture rtl of spi_slave_top at 15( 357) + 0 on 106;
+file / "C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\vhdl\spi_slave_top_tb.vhdl" "9180dee1e7352b3f3ab6f55dba64d352c232129f" "20261124203344.514":
+  entity spi_slave_top_tb at 2( 2) + 0 on 109;
+  architecture sim of spi_slave_top_tb at 10( 137) + 0 on 110;
+file / "C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL2_IP.vhdl" "9156525ac68e913bb5f6200039b4854d17630387" "20261124203344.031":
+  entity spi_slave_ctrl2_ip at 1( 0) + 0 on 97;
+  architecture rtl of spi_slave_ctrl2_ip at 27( 832) + 0 on 98;
+file / "C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL_IP.vhdl" "e79afb503fd12144ea87cf797e687a4188a63bf2" "20261124203344.192":
+  entity spi_slave_ctrl_ip at 1( 0) + 0 on 101;
+  architecture rtl of spi_slave_ctrl_ip at 27( 831) + 0 on 102;
+file / "C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP_tb.vhdl" "c271ce2e1fc8e711b1b06cdc91487c3311712fd6" "20261124203344.436":
+  entity spi_slave_ctrl3_ip_tb at 14( 718) + 0 on 107;
+  architecture sim of spi_slave_ctrl3_ip_tb at 22( 850) + 0 on 108;

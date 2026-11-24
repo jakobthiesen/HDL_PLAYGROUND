@@ -48,6 +48,22 @@ architecture rtl of SPI_MEM_TOP is
         );
     end component;
 
+    component CC_IBUF is
+        generic(
+            PIN_NAME        : string  := "UNPLACED";
+            V_IO            : string  := "UNDEFINED";
+            PULLUP          : integer := 0;
+            PULLDOWN        : integer := 0;
+            KEEPER          : integer := 0;
+            SCHMITT_TRIGGER : integer := 0;
+            DELAY_IBF       : integer := 0;
+            FF_IBF          : integer := 0
+        );
+        port(
+            I : in  std_logic;
+            Y : out std_logic
+        );
+    end component;
 
     signal lut_addr_a   : unsigned(9 downto 0);
     signal lut_addr_b   : unsigned(9 downto 0);
@@ -89,10 +105,48 @@ architecture rtl of SPI_MEM_TOP is
     -- signal clk_dds      : std_logic;
     signal clk_divider  : unsigned(1 downto 0) := to_unsigned(0,2);
 
+    signal w_spi_clk    : std_logic;
+    signal w_spi_mosi   : std_logic;
+    signal w_spi_ncs    : std_logic;
+
 begin
 
     -- spi_miso <= '1';
     -- clk_dds <= clk_10_MHz;
+
+
+    IO_FF_SPI_CLK : CC_IBUF
+        generic map(
+            SCHMITT_TRIGGER => 0,
+            DELAY_IBF       => 0,
+            FF_IBF          => 1
+        )
+        port map(
+            I => spi_clk,
+            Y => w_spi_clk
+        );
+
+    IO_FF_SPI_MOSI : CC_IBUF
+        generic map(
+            SCHMITT_TRIGGER => 0,
+            DELAY_IBF       => 0,
+            FF_IBF          => 1
+        )
+        port map(
+            I => spi_mosi,
+            Y => w_spi_mosi
+        );
+
+    IO_FF_SPI_NCS : CC_IBUF
+        generic map(
+            SCHMITT_TRIGGER => 0,
+            DELAY_IBF       => 0,
+            FF_IBF          => 1
+        )
+        port map(
+            I => spi_ncs,
+            Y => w_spi_ncs
+        );
 
 
     DIVIDE_CLK : process(clk_100_MHz)
@@ -107,7 +161,7 @@ begin
     pll_inst : CC_PLL
     generic map (
         REF_CLK => 10.0,
-        OUT_CLK => 150.0,
+        OUT_CLK => 100.0,
         PERF_MD => "SPEED",
 
         LOW_JITTER => 1,
@@ -224,17 +278,17 @@ begin
             o_addr_reg  => rfs_cfg_addr
         );
 
-    -- SPI_SLAVE : entity work.Zector_SPI_IP
-    SPI_SLAVE : entity work.SPI_SLAVE_IP
+    SPI_SLAVE : entity work.Zector_SPI_IP
+    -- SPI_SLAVE : entity work.SPI_SLAVE_IP
         generic map(
             DATA_WIDTH  => 32,
             ADDR_WIDTH  => 7
         )
         port map(
             i_clk       => clk_100_MHz,
-            i_spi_clk   => spi_clk,
-            i_MOSI      => spi_mosi,
-            i_ncs       => spi_ncs,
+            i_spi_clk   => w_spi_clk,
+            i_MOSI      => w_spi_mosi,
+            i_ncs       => w_spi_ncs,
             o_MISO      => spi_miso,
 
             i_data      => bram_spi_data(31 downto 0),
@@ -275,7 +329,7 @@ begin
     dds_scale <= signed(dds_scale_bus(15 downto 0));
     dds_phase <= signed(dds_phase_bus);
 
-    dac_out <= dds_out;
+    -- dac_out <= dds_out;
     -- dac_out <= cfg_regs(0)(7 downto 0);
 
 end architecture;

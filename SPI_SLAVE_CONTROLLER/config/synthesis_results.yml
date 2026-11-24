@@ -1,0 +1,71 @@
+SPI_SLAVE_CTRL3_IP:
+  gatemate_abc_new: false
+  gatemate_dff: false
+  gatemate_late_flatten: false
+  gatemate_noaddf: false
+  gatemate_nobram: false
+  gatemate_noclkbuf: true
+  gatemate_noflatten: false
+  gatemate_noiopad: false
+  gatemate_nomult: false
+  gatemate_nomx4: false
+  gatemate_retime: false
+  gatemate_scopename: false
+  rtl_diagram: false
+  source_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-24 21:18:51'
+  use_gatemate: true
+SPI_SLAVE_CTRL_IP:
+  gatemate_abc_new: false
+  gatemate_dff: false
+  gatemate_late_flatten: false
+  gatemate_noaddf: false
+  gatemate_nobram: false
+  gatemate_noclkbuf: false
+  gatemate_noflatten: false
+  gatemate_noiopad: false
+  gatemate_nomult: false
+  gatemate_nomx4: false
+  gatemate_retime: false
+  gatemate_scopename: false
+  rtl_diagram: false
+  source_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL_IP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-24 21:33:25'
+  use_gatemate: true
+Zector_40K_DP_BRAM_IP:
+  gatemate_abc_new: false
+  gatemate_dff: false
+  gatemate_noaddf: false
+  gatemate_nobram: false
+  gatemate_noclkbuf: false
+  gatemate_noflatten: false
+  gatemate_noiopad: false
+  gatemate_nomult: false
+  gatemate_nomx4: false
+  gatemate_retime: false
+  gatemate_scopename: false
+  rtl_diagram: false
+  source_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl
+  strategy: balanced
+  timestamp: '2026-11-24 14:55:54'
+  use_gatemate: true
+spi_slave_top:
+  gatemate_abc_new: false
+  gatemate_dff: false
+  gatemate_late_flatten: false
+  gatemate_noaddf: false
+  gatemate_nobram: false
+  gatemate_noclkbuf: true
+  gatemate_noflatten: false
+  gatemate_noiopad: false
+  gatemate_nomult: false
+  gatemate_nomx4: false
+  gatemate_retime: false
+  gatemate_scopename: true
+  rtl_diagram: false
+  source_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl
+  strategy: balanced
+  timestamp: '2026-11-24 20:53:13'
+  use_gatemate: true

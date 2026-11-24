@@ -7,3 +7,4 @@
 
 create_clock -name CFG_CLK -period 10.0 [get_nets {clk_100_MHz}]
 create_clock -name DDS_CLK -period 20.0 [get_nets {clk_25_MHz}] 
+

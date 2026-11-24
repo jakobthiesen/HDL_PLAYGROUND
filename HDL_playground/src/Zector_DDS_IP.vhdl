@@ -62,7 +62,7 @@ architecture rtl of Zector_DDS_IP is
     --Stage 6: Amplitude scaling
     -- constant SCALE          : signed(15 downto 0) := to_signed(32700,16);
     signal scale_product    : signed(LUT_DATA_WIDTH+SCALE_WIDTH downto 0);
-    signal dac_reg          : signed(OUTPUT_WIDTH-1 downto 0) := (others => '0');
+    signal dac_reg          : signed(OUTPUT_WIDTH-1 downto 0);
 
     constant dummy_scale : signed(15 downto 0) := to_signed(32767,16);
     constant dummy_m : unsigned(31 downto 0) := to_unsigned(429497, 32);
@@ -179,10 +179,11 @@ begin
 
             -- Stage 6: Calculate two partial products
             dac_reg <= scale_combined(SCALE_LOW_BIT+OUTPUT_WIDTH-1 downto SCALE_LOW_BIT);
+            Y <= not dac_reg(OUTPUT_WIDTH-1) & std_logic_vector(dac_reg(OUTPUT_WIDTH-2 downto 0));
         end if;
     end process;
 
-    Y <= not dac_reg(OUTPUT_WIDTH-1) & std_logic_vector(dac_reg(OUTPUT_WIDTH-2 downto 0));
+    
 
 end architecture;
 

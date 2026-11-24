@@ -42,14 +42,14 @@ architecture rtl of Zector_SPI_IP is
     signal valid_sync   : std_logic := '0'; --Synchronized valid to master clk.
     signal valid_prev   : std_logic := '0'; --Previous valid synched to master clk.
 
-    signal spi_clk_meta : std_logic := '0';
+    signal spi_clk_meta : std_logic;
     signal spi_clk_sync : std_logic := '0';
     signal spi_clk_prev : std_logic := '0';
 
-    signal spi_mosi_meta: std_logic := '0';
+    signal spi_mosi_meta: std_logic;
     signal spi_mosi_sync: std_logic := '0';
 
-    signal spi_ncs_meta : std_logic := '0';
+    signal spi_ncs_meta : std_logic;
     signal spi_ncs_sync : std_logic := '0';
 
     signal spi_pos_edge : std_logic := '0';

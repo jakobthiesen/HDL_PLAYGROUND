@@ -48,15 +48,15 @@ architecture rtl of SPI_SLAVE_IP is
     signal addr_last    : std_logic := '0';
     signal rx_last      : std_logic := '0';
 
-    signal spi_clk_meta : std_logic := '0';
-    signal spi_clk_sync : std_logic := '0';
-    signal spi_clk_prev : std_logic := '0';
+    signal spi_clk_meta : std_logic;
+    signal spi_clk_sync : std_logic;
+    signal spi_clk_prev : std_logic;
 
-    signal spi_mosi_meta: std_logic := '0';
-    signal spi_mosi_sync: std_logic := '0';
+    signal spi_mosi_meta: std_logic;
+    signal spi_mosi_sync: std_logic;
 
-    signal spi_ncs_meta : std_logic := '0';
-    signal spi_ncs_sync : std_logic := '0';
+    signal spi_ncs_meta : std_logic;
+    signal spi_ncs_sync : std_logic;
 
     signal spi_pos_edge : std_logic := '0';
     signal spi_neg_edge : std_logic := '0';
