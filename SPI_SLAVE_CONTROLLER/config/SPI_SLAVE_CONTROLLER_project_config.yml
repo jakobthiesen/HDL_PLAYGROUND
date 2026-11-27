@@ -20,29 +20,36 @@ cologne_chip_gatemate_toolchain_paths:
 cologne_chip_gatemate_toolchain_preference: PATH
 gtkwave_preference: DIRECT
 gtkwave_tool_path:
-  gtkwave: C:\Users\TK32FF\Desktop\GMPM_DIR\oss-cad-suite\bin\gtkwave.exe
+  gtkwave: C:\GateMate_Tools\oss-cad-suite\bin\gtkwave.exe
 hdl_project_hierarchy:
   src:
-    SPI_SLAVE_CTRL2_IP.vhdl: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL2_IP.vhdl
-    SPI_SLAVE_CTRL3_IP.vhdl: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl
-    SPI_SLAVE_CTRL_IP.vhdl: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL_IP.vhdl
-    Zector_40K_DP_BRAM_IP.vhdl: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl
+    RFS_SCH_IP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_IP.vhdl
+    RFS_SCH_TEMP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl
+    SPI_SLAVE_CTRL2_IP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL2_IP.vhdl
+    SPI_SLAVE_CTRL3_IP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl
+    SPI_SLAVE_CTRL_IP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL_IP.vhdl
+    ZI_TYPES_PKG.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\ZI_TYPES_PKG.vhdl
+    Zector_40K_DP_BRAM_IP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl
+    Zector_CFG_REGISTERS_IP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_CFG_REGISTERS_IP.vhdl
+    Zector_DDS_IP.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl
+    bram_dp_sin_lut.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl
+    bram_sp_sin_lut.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_sp_sin_lut.vhdl
   testbench:
-    SPI_SLAVE_CTRL3_IP_tb.vhdl: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP_tb.vhdl
-    spi_slave_top_tb.vhdl: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\vhdl\spi_slave_top_tb.vhdl
+    SPI_SLAVE_CTRL3_IP_tb.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP_tb.vhdl
+    spi_slave_top_tb.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\vhdl\spi_slave_top_tb.vhdl
   testbench_systemverilog: {}
   testbench_verilog: {}
   top:
-    spi_slave_top.vhdl: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl
+    spi_slave_top.vhdl: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl
 logs:
   ghdl_commands:
-    ghdl_commands.log: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\ghdl_commands.log
+    ghdl_commands.log: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\ghdl_commands.log
   nextpnr_commands:
-    nextpnr_commands.log: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\nextpnr_commands.log
+    nextpnr_commands.log: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\nextpnr_commands.log
   project_manager:
-    project_manager.log: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\project_manager.log
+    project_manager.log: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\project_manager.log
   yosys_commands:
-    yosys_commands.log: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\yosys_commands.log
+    yosys_commands.log: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\yosys_commands.log
 nextpnr_place_and_route_settings:
   allow_timing_failure: false
   allow_unconstrained: false
@@ -58,6 +65,7 @@ nextpnr_place_and_route_settings:
   ato_known_good_weight: 80
   ato_max_trials: 40
   ato_objective: highest_feasible
+  ato_path_rules: ''
   ato_refinement_seeds: 4
   ato_time_budget_min: 120
   ato_time_limit_enabled: true
@@ -93,7 +101,7 @@ nextpnr_place_and_route_settings:
   router: router2
   router2_alt_weights: false
   run_timing_analysis: false
-  sdc_path: C:/Users/TK32FF/Desktop/GIT_FOLDER/HDL_PLAYGROUND/SPI_SLAVE_CONTROLLER/constraints/SPI_SLAVE_CTRL_TC.sdc
+  sdc_path: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\constraints\SPI_SLAVE_CTRL_TC.sdc
   seed_mode: fixed
   selection: best_worst_slack
   stop_when_timing_met: false
@@ -102,54 +110,54 @@ nextpnr_place_and_route_settings:
   use_fallback_frequency: false
   verbose: false
 project_name: SPI_SLAVE_CONTROLLER
-project_path: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER
+project_path: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER
 project_structure:
   build:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\build
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\build
   config:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config
   constraints:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\constraints
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\constraints
   env:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\env
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\env
   impl:
     bitstream:
-    - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\bitstream
+    - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\bitstream
     logs:
-    - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs
+    - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs
     netlist:
-    - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\netlist
+    - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\netlist
     timing:
-    - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\timing
+    - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\timing
   logs:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs
   sim:
     behavioral:
-    - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral
+    - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral
     post-implementation:
-    - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\post-implementation
+    - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\post-implementation
     post-synthesis:
-    - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\post-synthesis
+    - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\post-synthesis
   src:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src
   synth:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\synth
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\synth
   testbench:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\vhdl
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\vhdl
   testbench_systemverilog:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\systemverilog
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\systemverilog
   testbench_verilog:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\verilog
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\testbench\verilog
 setup_files_initial:
   config_file:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\SPI_SLAVE_CONTROLLER_project_config.yml
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\SPI_SLAVE_CONTROLLER_project_config.yml
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config
   log_file:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\project_manager.log
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs\project_manager.log
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\logs
   synthesis_options_file:
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config\synthesis_options.yml
-  - C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config\synthesis_options.yml
+  - C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\config
 simulation_history:
   behavioral:
   - entity_name: spi_slave_top_tb
@@ -157,64 +165,64 @@ simulation_history:
     success: true
     time_prefix: ns
     timestamp: '2026-11-23T21:28:01.615651'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
     waveform_format: ghw
   - entity_name: spi_slave_top_tb
     simulation_time: 10
     success: false
     time_prefix: us
     timestamp: '2026-11-23T21:28:34.750126'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
     waveform_format: ghw
   - entity_name: spi_slave_top_tb
     simulation_time: 10
     success: false
     time_prefix: us
     timestamp: '2026-11-23T21:36:36.168596'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
     waveform_format: ghw
   - entity_name: spi_slave_top_tb
     simulation_time: 10
     success: true
     time_prefix: us
     timestamp: '2026-11-23T21:37:03.811875'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
     waveform_format: ghw
   - entity_name: spi_slave_top_tb
     simulation_time: 50
     success: true
     time_prefix: us
     timestamp: '2026-11-23T21:38:50.108936'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
     waveform_format: ghw
   - entity_name: spi_slave_top_tb
     simulation_time: 50
     success: true
     time_prefix: us
     timestamp: '2026-11-23T21:41:18.828324'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\spi_slave_top_tb.ghw
     waveform_format: ghw
   - entity_name: SPI_SLAVE_CTRL3_IP_tb
     simulation_time: 200
     success: true
     time_prefix: us
     timestamp: '2026-11-24T21:19:00.827131'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
     waveform_format: ghw
   - entity_name: SPI_SLAVE_CTRL3_IP_tb
     simulation_time: 200
     success: true
     time_prefix: us
     timestamp: '2026-11-24T21:33:44.733269'
-    vcd_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
-    waveform_file: C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
+    vcd_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
+    waveform_file: C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\sim\behavioral\SPI_SLAVE_CTRL3_IP_tb.ghw
     waveform_format: ghw
 simulation_settings:
   assert_level: error

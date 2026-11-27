@@ -62,15 +62,15 @@ Net "spi_mosi" Loc = "IO_WC_B8";
 Net "spi_miso" Loc = "IO_WC_B5";
 Net "spi_ncs" Loc = "IO_WC_A5";
 
-#Net "dac_out[7]" Loc = "IO_SA_A0" | FF_OBF=true;
-#Net "dac_out[6]" Loc = "IO_SA_B0" | FF_OBF=true;
-#Net "dac_out[5]" Loc = "IO_SA_A3" | FF_OBF=true;
-#Net "dac_out[4]" Loc = "IO_SA_B3" | FF_OBF=true;
-#Net "dac_out[3]" Loc = "IO_SA_A5" | FF_OBF=true;
-#Net "dac_out[2]" Loc = "IO_SA_B5" | FF_OBF=true;
-#Net "dac_out[1]" Loc = "IO_SA_A8" | FF_OBF=true;
-#Net "dac_out[0]" Loc = "IO_SA_B8" | FF_OBF=true;
+Net "dac_out[7]" Loc = "IO_SA_A0";
+Net "dac_out[6]" Loc = "IO_SA_B0";
+Net "dac_out[5]" Loc = "IO_SA_A3";
+Net "dac_out[4]" Loc = "IO_SA_B3";
+Net "dac_out[3]" Loc = "IO_SA_A5";
+Net "dac_out[2]" Loc = "IO_SA_B5";
+Net "dac_out[1]" Loc = "IO_SA_A8";
+Net "dac_out[0]" Loc = "IO_SA_B8";
 
-start floorplanning
-top spi_slave; pB:x110y0x160y35
-end floorplanning
+#start floorplanning
+#top spi_slave; pB:x0y0x140y130
+#end floorplanning

@@ -1,7 +1,7 @@
 {
-  "sram_uploads": 2,
+  "sram_uploads": 27,
   "flash_uploads": 0,
-  "total_uploads": 2,
-  "last_upload": "spi_slave_top (SRAM) - 20:41:27",
-  "last_upload_time": "2026-11-24T20:41:27.870376"
+  "total_uploads": 27,
+  "last_upload": "spi_slave_top (SRAM) - 21:02:28",
+  "last_upload_time": "2026-11-26T21:02:28.503555"
 }

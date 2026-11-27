@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity SPI_SLAVE_CTRL2_IP is
+entity SPI_SLAVE_CTRL_IP is
     GENERIC (
         DATA_WIDTH      : integer := 32;
         ADDR_WIDTH      : integer := 7;
@@ -24,15 +24,17 @@ entity SPI_SLAVE_CTRL2_IP is
 end entity;
 
 
-architecture rtl of SPI_SLAVE_CTRL2_IP is
+architecture rtl of SPI_SLAVE_CTRL_IP is
 
     --Constants
     constant READ_STATE     : std_logic := '1';
     constant WRITE_STATE    : std_logic := '0';
     constant VALID          : std_logic := '1';
     constant NOT_VALID      : std_logic := '0';
-    constant PAYLOAD_SIZE   : integer := HEADER_WIDTH+ADDR_WIDTH+DATA_WIDTH;
-    constant COUNT_RESET    : std_logic_vector(PAYLOAD_SIZE-1 downto 0) := (0=>'1', others => '0');
+    constant ADDR_HEADER_SIZE   : integer := ADDR_WIDTH+HEADER_WIDTH;
+    constant ADDR_COUNT_RESET   : std_logic_vector(ADDR_HEADER_SIZE-1 downto 0) := (0=>'1', others => '0');
+    constant RX_COUNT_RESET     : std_logic_vector(DATA_WIDTH-1 downto 0) := (0 => '1', others => '0');
+    constant TX_COUNT_RESET     : std_logic_vector(DATA_WIDTH-1 downto 0) := (0 => '1', others => '0');
 
     --Synchronization register signals
     signal spi_clk_meta     : std_logic;
@@ -56,8 +58,9 @@ architecture rtl of SPI_SLAVE_CTRL2_IP is
     signal data_reg         : std_logic_vector(DATA_WIDTH-1 downto 0);
 
     --Counter vectors
-    signal rx_count         : std_logic_vector(PAYLOAD_SIZE-1 downto 0) := COUNT_RESET; --One hot bit counter
-    signal tx_count         : std_logic_vector(PAYLOAD_SIZE-1 downto 0) := COUNT_RESET; -- one hit bit counter
+    signal addr_count       : std_logic_vector(ADDR_HEADER_SIZE-1 downto 0) := ADDR_COUNT_RESET; --One hot bit counter
+    signal rx_count         : std_logic_vector(DATA_WIDTH-1 downto 0) := RX_COUNT_RESET; --One hot bit counter
+    signal tx_count         : std_logic_vector(DATA_WIDTH-1 downto 0) := TX_COUNT_RESET; -- one hit bit counter
 
     --Decoding and process flags
     signal addr_valid_flag  : std_logic := '0';
@@ -70,6 +73,17 @@ architecture rtl of SPI_SLAVE_CTRL2_IP is
 
 begin
 
+
+    o_we <= not read_mode_flag;
+    o_addr <= addr_reg;
+    o_data <= data_reg;
+
+    ENABLE_BRAM : process(i_clk)
+    begin
+        if rising_edge(i_clk) then
+            o_en <= addr_valid_flag or rx_valid_flag;
+        end if;
+    end process;
 
     --Clock domain synchronization for spi clk
     TWO_STAGE_CLK_SYNC : process(i_clk)
@@ -88,8 +102,8 @@ begin
     TWO_STAGE_CNS_SYNC : process(i_clk)
     begin
         if rising_edge(i_clk) then
-            spi_ncs_meta <= i_ncs;
-            spi_ncs_sync <= spi_ncs_meta;
+            spi_ncs_sync <= i_ncs;
+            -- spi_ncs_sync <= spi_ncs_meta;
         end if;
     end process;
 
@@ -97,19 +111,89 @@ begin
     TWO_STAGE_MOSI_SYNC : process(i_clk)
     begin
         if rising_edge(i_clk) then
-            spi_mosi_meta <= i_mosi;
-            spi_mosi_sync <= spi_mosi_meta;
+            spi_mosi_sync <= i_mosi;
+            -- spi_mosi_sync <= spi_mosi_meta;
         end if;
     end process;
 
-    -- RX : process(i_clk)
-    -- begin
-    --     if rising_edge(i_clk) then
-    --         if spi_ncs_sync = '1' then
-    --             rx_count <= RX_COUNT_RESET;
-    --         else
-    --     end if;
-    -- end process;
+
+    DECODE_ADDR : process(i_clk)
+    begin
+        if rising_edge(i_clk) then
+            addr_valid_flag <= NOT_VALID;
+            if spi_ncs_sync = '1' then
+                addr_count <= ADDR_COUNT_RESET;
+                rx_begin_flag <= NOT_VALID;
+                tx_begin_flag <= NOT_VALID;
+            elsif spi_pos_edge = '1' then 
+                if rx_begin_flag = NOT_VALID and tx_begin_flag = NOT_VALID then
+                    if addr_count(0) = '1' then
+                        read_mode_flag <= spi_mosi_sync;
+                    else
+                        addr_shift <= addr_shift(ADDR_WIDTH-2 downto 0) & spi_mosi_sync;
+                    end if;
+
+                    if addr_count(ADDR_HEADER_SIZE-1) = '1' then
+                        addr_reg <= addr_shift(ADDR_WIDTH-2 downto 0) & spi_mosi_sync;
+                        if(read_mode_flag = READ_STATE) then
+                            addr_valid_flag <= VALID;
+                            tx_begin_flag <= VALID;
+                        else
+                            rx_begin_flag <= VALID;
+                        end if;
+                    end if;
+                    addr_count <= addr_count(ADDR_HEADER_SIZE-2 downto 0) & '0';
+                end if;
+            end if;
+        end if;
+    end process;
+
+    RX : process(i_clk)
+    begin
+        if rising_edge(i_clk) then
+            rx_valid_flag <= NOT_VALID;
+            if spi_ncs_sync = '1' then
+                rx_count <= RX_COUNT_RESET;
+                rx_done_flag <= NOT_VALID;
+            elsif spi_pos_edge = '1' then
+                if rx_begin_flag = VALID and rx_done_flag = NOT_VALID then
+                    rx_shift <= rx_shift(DATA_WIDTH-2 downto 0) & spi_mosi_sync;
+                    if rx_count(DATA_WIDTH-1) = '1' then
+                        data_reg <= rx_shift(DATA_WIDTH-2 downto 0) & spi_mosi_sync;
+                        rx_valid_flag <= VALID;
+                        rx_done_flag <= VALID;
+                    end if;
+                    rx_count <= rx_count(DATA_WIDTH-2 downto 0) & '0';
+                end if;
+            end if;
+        end if;
+    end process;
+
+    TX : process(i_clk)
+    begin
+        if rising_edge(i_clk) then
+            if spi_ncs_sync = '1' then
+                tx_count <= TX_COUNT_RESET;
+                tx_done_flag <= NOT_VALID;
+            elsif spi_neg_edge = '1' then
+
+                if tx_begin_flag = VALID and tx_done_flag = NOT_VALID then
+                    if tx_count(0) = '1' then
+                        o_miso <= i_data(DATA_WIDTH-1);
+                        tx_shift <= i_data(DATA_WIDTH-2 downto 0) & '0';
+                    else
+                        o_miso <= tx_shift(DATA_WIDTH-1);
+                        tx_shift <= tx_shift(DATA_WIDTH-2 downto 0) & '0';
+                    end if;
+
+                    if tx_count(DATA_WIDTH-1) = '1' then
+                        tx_done_flag <= VALID;
+                    end if;
+                    tx_count <= tx_count(DATA_WIDTH-2 downto 0) & '0';
+                end if;
+            end if;
+        end if;
+    end process;
 
     
 end architecture;

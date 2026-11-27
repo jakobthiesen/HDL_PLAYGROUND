@@ -5,4 +5,6 @@
 # create_clock -name CFG_CLK -period 10.0 [get_ports {clk_10_MHz}]
 # create_clock -name DDS_CLK -period 20.0 [get_ports {clk_dds}] 
 
-create_clock -name CFG_CLK -period 10.0 [get_nets {clk_10_MHz}]
+create_clock -name SYS_CLK -period 10.0 [get_nets {sys_clk}]
+create_clock -name CFG_CLK -period 100.0 [get_nets {clk_10_MHz}]
+
