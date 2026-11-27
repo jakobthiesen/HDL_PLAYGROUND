@@ -46,50 +46,50 @@ module rfs_sch_test_Brtl
   assign o_do_2 = n534; //(module output)
   assign o_addr_bram = bram_addr; //(module output)
   assign o_addr_cfg = n460; //(module output)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:28:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:28:12 */
   always @*
     state = n535; // (isignal)
   initial
     state = 4'b0000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:30:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:30:12 */
   always @*
     bram_en = n536; // (isignal)
   initial
     bram_en = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:31:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:31:12 */
   always @*
     bram_addr = n537; // (isignal)
   initial
     bram_addr = 10'b0000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:62:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:62:17 */
   assign n465 = state == 4'b0000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:69:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:69:17 */
   assign n467 = state == 4'b0001;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:73:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:73:17 */
   assign n469 = state == 4'b0010;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:77:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:77:17 */
   assign n471 = state == 4'b0011;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:85:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:85:17 */
   assign n473 = state == 4'b0100;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:92:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:92:17 */
   assign n475 = state == 4'b0101;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:95:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:95:17 */
   assign n477 = state == 4'b0110;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:98:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:98:17 */
   assign n479 = state == 4'b0111;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:106:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:106:17 */
   assign n481 = state == 4'b1000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:113:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:113:17 */
   assign n483 = state == 4'b1001;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:116:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:116:17 */
   assign n485 = state == 4'b1010;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:119:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:119:17 */
   assign n487 = state == 4'b1011;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:127:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:127:17 */
   assign n489 = state == 4'b1100;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
   assign n490 = {n489, n487, n485, n483, n481, n479, n477, n475, n473, n471, n469, n467, n465};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
   always @*
     case (n490)
       13'b1000000000000: n491 = n532;
@@ -107,7 +107,7 @@ module rfs_sch_test_Brtl
       13'b0000000000001: n491 = n532;
       default: n491 = n532;
     endcase
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
   always @*
     case (n490)
       13'b1000000000000: n492 = n533;
@@ -125,7 +125,7 @@ module rfs_sch_test_Brtl
       13'b0000000000001: n492 = n533;
       default: n492 = n533;
     endcase
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
   always @*
     case (n490)
       13'b1000000000000: n493 = n534;
@@ -143,7 +143,7 @@ module rfs_sch_test_Brtl
       13'b0000000000001: n493 = n534;
       default: n493 = n534;
     endcase
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
   always @*
     case (n490)
       13'b1000000000000: n508 = 4'b0000;
@@ -161,7 +161,7 @@ module rfs_sch_test_Brtl
       13'b0000000000001: n508 = 4'b0001;
       default: n508 = 4'b0000;
     endcase
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
   always @*
     case (n490)
       13'b1000000000000: n513 = 1'b0;
@@ -179,7 +179,7 @@ module rfs_sch_test_Brtl
       13'b0000000000001: n513 = 1'b1;
       default: n513 = 1'b0;
     endcase
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:57:13 */
   always @*
     case (n490)
       13'b1000000000000: n518 = bram_addr;
@@ -197,26 +197,26 @@ module rfs_sch_test_Brtl
       13'b0000000000001: n518 = 10'b0000000000;
       default: n518 = bram_addr;
     endcase
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
   always @(posedge i_clk)
     n532 <= n491;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
   always @(posedge i_clk)
     n533 <= n492;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
   always @(posedge i_clk)
     n534 <= n493;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
   always @(posedge i_clk)
     n535 <= n508;
   initial
     n535 = 4'b0000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
   always @(posedge i_clk)
     n536 <= n513;
   initial
     n536 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\RFS_SCH_TEMP.vhdl:52:9 */
   always @(posedge i_clk)
     n537 <= n518;
   initial
@@ -252,15 +252,15 @@ module zector_40k_dp_bram_ip_Brtl_40_10
   localparam [39:0] n439 = 40'b1111111111111111111111111111111111111111;
   assign do_a = \bram_inst.A_DO ; //(module output)
   assign do_b = \bram_inst.B_DO ; //(module output)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:63:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:63:12 */
   assign bram_addr_a = n435; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:64:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:64:12 */
   assign bram_addr_b = n437; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:74:27 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:74:27 */
   assign n435 = {addr_a, 6'b000000};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:75:27 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:75:27 */
   assign n437 = {addr_b, 6'b000000};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:77:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_40K_DP_BRAM_IP.vhdl:77:5 */
   CC_BRAM_40K #(
     .CAS("NONE"),
     .A_RD_WIDTH(40),
@@ -444,386 +444,386 @@ module spi_slave_ctrl3_ip_Brtl_32_7_1
   assign o_en = n379; //(module output)
   assign o_addr = addr_reg; //(module output)
   assign o_data = data_reg; //(module output)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:54:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:54:12 */
   assign addr_shift = n383; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:55:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:55:12 */
   assign rx_shift = n387; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:56:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:56:12 */
   assign tx_shift = n391; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:57:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:57:12 */
   assign addr_reg = n395; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:58:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:58:12 */
   assign data_reg = n399; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:61:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:61:12 */
   always @*
     addr_count = n401; // (isignal)
   initial
     addr_count = 8'b00000001;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:62:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:62:12 */
   always @*
     rx_count = n403; // (isignal)
   initial
     rx_count = 32'b00000000000000000000000000000001;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:63:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:63:12 */
   always @*
     tx_count = n405; // (isignal)
   initial
     tx_count = 32'b00000000000000000000000000000001;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:66:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:66:12 */
   always @*
     addr_valid_flag = n291; // (isignal)
   initial
     addr_valid_flag = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:67:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:67:12 */
   always @*
     rx_valid_flag = n335; // (isignal)
   initial
     rx_valid_flag = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:68:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:68:12 */
   always @*
     rx_begin_flag = n407; // (isignal)
   initial
     rx_begin_flag = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:69:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:69:12 */
   always @*
     tx_begin_flag = n409; // (isignal)
   initial
     tx_begin_flag = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:70:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:70:12 */
   always @*
     rx_done_flag = n411; // (isignal)
   initial
     rx_done_flag = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:71:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:71:12 */
   always @*
     tx_done_flag = n413; // (isignal)
   initial
     tx_done_flag = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:72:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:72:12 */
   always @*
     read_mode_flag = n417; // (isignal)
   initial
     read_mode_flag = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:74:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:74:12 */
   always @*
     rx_valid_tgl = n421; // (isignal)
   initial
     rx_valid_tgl = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:75:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:75:12 */
   always @*
     rx_valid_meta = n422; // (isignal)
   initial
     rx_valid_meta = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:76:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:76:12 */
   always @*
     rx_valid_sync = n423; // (isignal)
   initial
     rx_valid_sync = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:77:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:77:12 */
   always @*
     rx_valid_prev = n424; // (isignal)
   initial
     rx_valid_prev = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:79:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:79:12 */
   always @*
     addr_valid_tgl = n428; // (isignal)
   initial
     addr_valid_tgl = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:80:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:80:12 */
   always @*
     addr_valid_meta = n429; // (isignal)
   initial
     addr_valid_meta = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:81:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:81:12 */
   always @*
     addr_valid_sync = n430; // (isignal)
   initial
     addr_valid_sync = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:82:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:82:12 */
   always @*
     addr_valid_prev = n431; // (isignal)
   initial
     addr_valid_prev = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:87:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:87:13 */
   assign n208 = ~read_mode_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:94:37 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:94:37 */
   assign n211 = addr_valid_flag | rx_valid_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:30 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:30 */
   assign n235 = ~rx_begin_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:60 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:60 */
   assign n236 = ~tx_begin_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:42 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:42 */
   assign n237 = n236 & n235;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:138:30 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:138:30 */
   assign n238 = addr_count[0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:141:45 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:141:45 */
   assign n239 = addr_shift[5:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:141:69 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:141:69 */
   assign n240 = {n239, i_mosi};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:138:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:138:17 */
   assign n241 = n238 ? addr_shift : n240;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:144:30 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:144:30 */
   assign n243 = addr_count[7]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:145:43 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:145:43 */
   assign n244 = addr_shift[5:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:145:67 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:145:67 */
   assign n245 = {n244, i_mosi};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:147:43 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:147:43 */
   assign n246 = ~addr_valid_tgl;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:146:21 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:146:21 */
   assign n248 = read_mode_flag ? rx_begin_flag : 1'b1;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:144:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:144:17 */
   assign n254 = read_mode_flag & n243;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:144:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:144:17 */
   assign n255 = read_mode_flag & n243;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:153:41 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:153:41 */
   assign n256 = addr_count[6:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:153:71 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:153:71 */
   assign n258 = {n256, 1'b0};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
   assign n260 = n243 & n237;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
   assign n262 = n243 & n237;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
   assign n263 = n254 & n237;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
   assign n264 = n238 & n237;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:137:13 */
   assign n265 = n255 & n237;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:166:40 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:166:40 */
   assign n291 = addr_valid_sync ^ addr_valid_prev;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:55 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:55 */
   assign n295 = ~rx_done_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:38 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:38 */
   assign n296 = n295 & rx_begin_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:177:37 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:177:37 */
   assign n297 = rx_shift[30:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:177:61 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:177:61 */
   assign n298 = {n297, i_mosi};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:179:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:179:28 */
   assign n299 = rx_count[31]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:180:41 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:180:41 */
   assign n300 = rx_shift[30:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:180:65 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:180:65 */
   assign n301 = {n300, i_mosi};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:182:37 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:182:37 */
   assign n302 = ~rx_valid_tgl;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:185:37 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:185:37 */
   assign n307 = rx_count[30:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:185:61 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:185:61 */
   assign n309 = {n307, 1'b0};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:13 */
   assign n311 = n299 & n296;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:13 */
   assign n313 = n299 & n296;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:176:13 */
   assign n314 = n299 & n296;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:198:36 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:198:36 */
   assign n335 = rx_valid_sync ^ rx_valid_prev;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:208:55 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:208:55 */
   assign n339 = ~tx_done_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:208:38 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:208:38 */
   assign n340 = n339 & tx_begin_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:209:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:209:28 */
   assign n341 = tx_count[0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:210:37 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:210:37 */
   assign n342 = i_data[31]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:211:39 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:211:39 */
   assign n343 = i_data[30:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:211:63 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:211:63 */
   assign n345 = {n343, 1'b0};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:213:39 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:213:39 */
   assign n346 = tx_shift[31]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:214:41 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:214:41 */
   assign n347 = tx_shift[30:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:214:65 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:214:65 */
   assign n349 = {n347, 1'b0};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:209:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:209:17 */
   assign n350 = n341 ? n342 : n346;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:209:17 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:209:17 */
   assign n351 = n341 ? n345 : n349;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:217:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:217:28 */
   assign n352 = tx_count[31]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:220:37 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:220:37 */
   assign n355 = tx_count[30:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:220:61 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:220:61 */
   assign n357 = {n355, 1'b0};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:208:13 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:208:13 */
   assign n361 = n352 & n340;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:16:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:16:9 */
   assign n375 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:16:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:16:9 */
   assign n376 = n340 & n375;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   assign n377 = n376 ? n350 : n378;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   always @(negedge i_spi_clk)
     n378 <= n377;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:93:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:93:9 */
   always @(posedge i_clk)
     n379 <= n211;
   initial
     n379 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:54:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:54:12 */
   assign n380 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:54:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:54:12 */
   assign n381 = n237 & n380;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   assign n382 = n381 ? n241 : addr_shift;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   always @(posedge i_spi_clk)
     n383 <= n382;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:55:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:55:12 */
   assign n384 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:55:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:55:12 */
   assign n385 = n296 & n384;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   assign n386 = n385 ? n298 : rx_shift;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   always @(posedge i_spi_clk)
     n387 <= n386;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:56:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:56:12 */
   assign n388 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:56:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:56:12 */
   assign n389 = n340 & n388;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   assign n390 = n389 ? n351 : tx_shift;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   always @(negedge i_spi_clk)
     n391 <= n390;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:57:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:57:12 */
   assign n392 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:57:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:57:12 */
   assign n393 = n260 & n392;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   assign n394 = n393 ? n245 : addr_reg;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   always @(posedge i_spi_clk)
     n395 <= n394;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:58:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:58:12 */
   assign n396 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:58:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:58:12 */
   assign n397 = n311 & n396;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   assign n398 = n397 ? n301 : data_reg;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   always @(posedge i_spi_clk)
     n399 <= n398;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   assign n400 = n237 ? n258 : addr_count;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   always @(posedge i_spi_clk or posedge i_ncs)
     if (i_ncs)
       n401 <= 8'b00000001;
     else
       n401 <= n400;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   assign n402 = n296 ? n309 : rx_count;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   always @(posedge i_spi_clk or posedge i_ncs)
     if (i_ncs)
       n403 <= 32'b00000000000000000000000000000001;
     else
       n403 <= n402;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   assign n404 = n340 ? n357 : tx_count;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   always @(negedge i_spi_clk or posedge i_ncs)
     if (i_ncs)
       n405 <= 32'b00000000000000000000000000000001;
     else
       n405 <= n404;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   assign n406 = n262 ? n248 : rx_begin_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   always @(posedge i_spi_clk or posedge i_ncs)
     if (i_ncs)
       n407 <= 1'b0;
     else
       n407 <= n406;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   assign n408 = n263 ? 1'b1 : tx_begin_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   always @(posedge i_spi_clk or posedge i_ncs)
     if (i_ncs)
       n409 <= 1'b0;
     else
       n409 <= n408;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   assign n410 = n313 ? 1'b1 : rx_done_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   always @(posedge i_spi_clk or posedge i_ncs)
     if (i_ncs)
       n411 <= 1'b0;
     else
       n411 <= n410;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   assign n412 = n361 ? 1'b1 : tx_done_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:207:9 */
   always @(negedge i_spi_clk or posedge i_ncs)
     if (i_ncs)
       n413 <= 1'b0;
     else
       n413 <= n412;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:72:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:72:12 */
   assign n414 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:72:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:72:12 */
   assign n415 = n264 & n414;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   assign n416 = n415 ? i_mosi : read_mode_flag;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   always @(posedge i_spi_clk)
     n417 <= n416;
   initial
     n417 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:74:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:74:12 */
   assign n418 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:74:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:74:12 */
   assign n419 = n314 & n418;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   assign n420 = n419 ? n302 : rx_valid_tgl;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:175:9 */
   always @(posedge i_spi_clk)
     n421 <= n420;
   initial
     n421 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:192:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:192:9 */
   always @(posedge i_clk)
     n422 <= rx_valid_tgl;
   initial
     n422 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:192:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:192:9 */
   always @(posedge i_clk)
     n423 <= rx_valid_meta;
   initial
     n423 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:192:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:192:9 */
   always @(posedge i_clk)
     n424 <= rx_valid_sync;
   initial
     n424 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:79:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:79:12 */
   assign n425 = ~i_ncs;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:79:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:79:12 */
   assign n426 = n265 & n425;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   assign n427 = n426 ? n246 : addr_valid_tgl;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:136:9 */
   always @(posedge i_spi_clk)
     n428 <= n427;
   initial
     n428 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:160:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:160:9 */
   always @(posedge i_clk)
     n429 <= addr_valid_tgl;
   initial
     n429 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:160:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:160:9 */
   always @(posedge i_clk)
     n430 <= addr_valid_meta;
   initial
     n430 = 1'b0;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:160:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\SPI_SLAVE_CTRL3_IP.vhdl:160:9 */
   always @(posedge i_clk)
     n431 <= addr_valid_sync;
   initial
@@ -846,12 +846,12 @@ module bram_dp_sin_lut_Brtl_20_10
   reg [19:0] n176; // mem_rd
   assign do_a = n176; //(module output)
   assign do_b = n174; //(module output)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:30:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:30:12 */
   always @*
     memory = 20480'b11111111001101101111111111100110110111101111110110100100111011111100110110111101111111000001001011101111101101001001111011111010100000010000111110011011100000101111100011101111011011111000001001101010111101110101111000001111011010010101011111110101110011010000111101010000010010101111010000111100010111110011011101000011111100101010110000101111000111100100010011110001000111001000111100000101010011101110111110001101011011101110110001100001111011011111111011111110110100110111111111101100011100010010111010111010101010011110101011100100001011101010000111011111111010010101011111111110100010010010001111100111110011001010111001110000011101011110011001000010001111100101011111010110111001001011100011011110001111110100100011100011001100000111111000100110110010111110000110101001010011100000111001100001111000000010001100101101111101100000100111011110100111100101110111011101110001101101110100011010110011011100010110011000110110111001100010011101101011011000000011011010000101111100110110010101011111101101100010011000011011010111110110010101110101110001101010011101011001011100010011010101100111100101110101001110000011011101010000100011101111010011011001110001110100101010101011011101000111101111000011010001001100111010110100000111100010111100111110111110010011001111000001000100110011100100101011001100110110010001101111001100110110010010110011000010000100011100101101101001100011001010101100100111110010011111101111111100100101000101111011001000100100000111110001111101101101111100011100100111000111000110011100110011110001011011111111101100010100001101001011000100010110101111110000111010100101011100001011111000010011000010010001111101110000011001100000001100000011101000110011000000001110100010101111111000110000011011111011011110101110111110001100011111101111011000010111001011110011011010010010111100001011110111101110111000010101001011101011011011101110111010001100101101101110011000101010101011100011100011001010111000001111000100101101111001011000101011011011110000101110110110010010111111101101011010011111111011010100000100101010110100011000100000101100111100000000111011001100011111000110110010011111101010101100011101111100001011000101000000001010110000101000100000101100000000010010101010111101101000000110101110110011000100101011100011000100111010110110010110111110101100111111011000101011000110010011101010101111001101000110101011001101100000101010101001111111011010101000001010011010101001011101011101101010001110001000101010100001001111010010100111101111010011101001110010110000001010011010011011101010100110000011000011101001010111110110011010010011101111110110100100011000110000101000111101011100001010001101001011111110100010110000011100101000100011100001111010000110110000000110100001001010001001101000001010001000001010000000011100011010011111100101111010100111110001001111011001111010010000111110011110000011110001100111011000111000011001110100001110000110011100100011101111100111000001000011101001101110010011101110011011000101111000100110101001110001011001101000100010000110011001101010001101100110010011000010011001100010111001010010011000010000110000100101111100110110111001011101011001011110010110111001100011100101100111001111111001011000000010101110010101100100100111100101010010001101001001010010110101001010010100010010000000100100111101101111101001001101110000111010010011000001101110100100101001110111101001001000110110000010010001110011110011100100010110100101101001000100000100101110010000101000010001100100000011111010001000111111011101000010001111011111001001100011110001110101001000111010111111000010001110011000011110100011100000010111011000110110101010111010001101010100010001100011001111100001011000110010100000101110001100010010100010100010111111010011001000101110100000011110001011010011010100100010101111101101001000101010101010010110001010010110101001100010100000101111101000100110111110011010001001011100100000100010010010011011001000100011011100101110001000100100111100100010000100101111111000100000000101010110000111101111111110100001110111101110011000011100111000011010000110111101100110100001101011010110011000011001110101111110000110001101110111100001011111101000101000010110111110000010000101100000110001100001010100100101001000010100010000101110000100110110010100100001001010001100011000010001101110000010000100001110100011100001000000011110001000001111010110000110000011101001011101100000110111011011001000001101001000111110000011000111000100100000101111000011011000001011000110100110000010100111011000100000100111010110111000001001001111000110000010001010011011100000100000010101111000000111100010100010000001110000001011100000011010000000111000000110000000110110000001011000101100100000010100010111011000000100101010001110000001000011111011100000001111011010001000000011011110100010000000110001111011100000001011001000111000000010011101111010000000100010101100100000000111100011101000000001101000010010000000010110001110100000000100101010111000000000111101110010000000001100100000100000000010011110011000000000011110010110000000000101100100100000000000111110001000000000001001111110000000000001011010100000000000001010001000000000000000101110000000000000000001100000000000000010111000000000000010100010000000000001011010100000000000100111111000000000001111100010000000000101100100100000000001111001011000000000100111100110000000001100100000100000000011110111001000000001001010101110000000010110001110100000000110100001001000000001111000111010000000100010101100100000001001110111101000000010110010001110000000110001111011100000001101111010001000000011110110100010000001000011111011100000010010101000111000000101000101110110000001011000101100100000011000000011011000000110100000001110000001110000001011100000011110001010001000001000000101011110000010001010011011100000100100111100011000001001110101101110000010100111011000100000101100011010011000001011110000110110000011000111000100100000110100100011111000001101110110110010000011101001011101100000111101011000011000010000000111100010000100001110100011100001000110111000001000010010100011000110000100110110010100100001010001000010111000010101001001010010000101100000110001100001011011111000001000010111111010001010000110001101110111100001100111010111111000011010110101100110000110111101100110100001110011100001101000011101111011100110000111101111111110100010000000010101011000100001001011111110001000100100111100100010001101110010111000100100100110110010001001011100100000100010011011111001101000101000001011111010001010010110101001100010101010101001011000101011111011010010001011010011010100100010111010000001111000101111110100110010001100010010100010100011001010000010111000110011111000010110001101010100010001100011011010101011101000111000000101110110001110011000011110100011101011111100001000111100011101010010001111011111001001100011111101110100001001000000111110100010010000101000010001100100010000010010111001000101101001011010010001110011110011100100100011011000001001001010011101111010010011000001101110100100110111000011101001001111011011111010010100010010000000100101001011010100101001010100100011010010010101100100100111100101100000001010111001011001110011111110010110111001100011100101110101100101111001011111001101101110011000010000110000100110001011100101001001100100110000100110011001101010001101100110100010001000011001101010011100010110011011000101111000100110111001001110111001110000010000111010011100100011101111100111010000111000011001110110001110000110011110000011110001100111101001000011111001111100010011110110011111100101111010101000000001110001101010000010100010000010100001001010001001101000011011000000011010001000111000011110100010110000011100101000110100101111111010001111010111000010100100011000110000101001001110111111011010010101111101100110100110000011000011101001101001101110101010011100101100000010100111101111010011101010000100111101001010100011100010001010101001011101011101101010100000101001101010101010011111110110101011001101100000101010111100110100011010110001100100111010101100111111011000101011011001011011111010111000110001001110101110110011000100101011110110100000011011000000000100101010110000101000100000101100010100000000101011000111011111000010110010011111101010101100110001111100011011001111000000001110110100011000100000101101010000010010101011010110100111111110110110010010111111101101101111000010111011011110010110001010111000001111000100101110001110001100101011100110001010101010111010001100101101101110101101101110111011101110000101010010111100001011110111101111001101101001001011110110000101110010111110001100011111101111101101111010111011111110001100000111000000001110100010110000001110100011001100000110011000000011000010010001111101110000101111100001001100001110101001010111000100010110101111110001010000110100101100010110111111111011000110011100110011110001110010011100011100011111011011011111001000100100000111110010010100010111101100100111111011111111001010101100100111110010110110100110001100110000100001000111001100110110010010110011011001000110111100111001001010110011001111000001000100110011111011111001001101000001111000101111010001001100111010110100011110111100001101001010101010110111010011011001110001110101000010001110111101010011100000110111010101100111100101110101100101110001001101011100011010100111010111110110010101110110001001100001101101100101010111111011011010000101111100110110101101100000001101101110011000100111011100010110011000110111010001101011001101110111011100011011011110100111100101110111110110000010011110000000100011001011100000111001100001111000011010100101001110001001101100101111100011001100000111111000111111010010001110010010111000110111100101011111010110111001100100001000111110011100000111010111100111110011001010111010001001001000111110100101010111111111101010000111011111111010101110010000101110101110101010100111101100011100010010111011010011011111111110110111111110111111101110110001100001111011111000110101101111000001010100111011110001000111001000111100011110010001001111001010101100001011110011011101000011111101000011110001011111010100000100101011110101110011010000111101101001010101111111011101011110000011111000001001101010111110001110111101101111100110111000001011111010100000010000111110110100100111101111110000010010111011111100110110111101111111011010010011101111111001101101111011111111001101101111000000000000000000000000000011001001000100000001100100100010000000100101101100100000001100100100001100000011111011010010000001001011011000100000010101111111000000000110010001111110000001110001000010100000011111011001011000001000101000100000000010010110101010010000101000110011000000001010111110110110000010111100001110110000110010001011110100001101010100111110000011100001101111000000111011100011100000001111101010110010000100000111001010100001000100111001111100010010000000010001000100101100100000010001001110001110111000010100010101010111000101010001101111100001010111100010000100010110101010000001000101110110110111010001100000110011011000011000111110001011000110011011110111010001101010000010101000011011010001110011000111000000101110000001110011001111100100011101100100110101000111100101011011000001111100011001111100011111110111001110001000001001111101110010000101100001101100100010001000111010001000101110010101000010001110100110100000100100011001110111001001010010100000000010010111101000010000100110101010000010001001110110011110100010100000100110101100101000111001010111001010011010001111000010101001100001101100101011000111110011001010111101110001010010110010011000111100101101010101010011001011100001000100000010111011001100011000101111100001110101001100000100000111000011000011111011110000110001101101010100001100100110111001010011001100100110111000110011110111101111001101001001011010000011010101001101100100110110000001000001001101101011101000100011011101101111100100111000001001001001001110001101100011110011100110001100110100111010010000000010001110101111001011100011101110100101000100111100010101101011001111010000011111000011110110111000001100111110011010000000001111110001011101000011111111000101111001000000011100111111010000010010000101010100000111001110000101000010011110100100010000110010010111000100001111010000100101000100011110101100010001010010010001010100010111001101001101000110011101010110010001110001110011100100011111000011110001001000011010011110010010010000111101010100100110110100000101001010010110000001010010101111101101100100101110011110000001001100001111111101010011001110000011110100110110000001011001001110001000010000010011101011111111100100111101011110000001001111111110110110010100001001011111110101000100110011110001010001110011101101010100100110100100010101001100000010100001010011100110110010010101000011001011110101010011001010000001010101011000000011010101011111010110100101011010001010001101010111000111011110010101111011000011000101100001000010110101011000110101000000010110010110010001100101100111110011110101011010100000100111010110110001000000110101101110011101000001011100001010010000010111001011010000010101110100111110010001011101110001111001010111100100111111110101111011010111011101011111010111100000010111111110001110100110000001101000011001100000111011000011011000010110111100010110000111110000111101100010011100011111011000101111000111110110001101110001000101100011111011110010011001000110110001010110010011101000100001100101011000111011011001011101110111110110011001010111001101100110110011110111011001110100011011000110011110111101000001101000001100100101011010001010011010010110100100011001110101101001100011000001011010011111110101010110101001101101100101101010110111001100011010110100101011100110101110111000000001101100001001000010011011001000111100100110110011111001001001101101011000100010011011011100101000000110111000110000110101101110100101101010011011101111101101010110111101011110111101101111110000011000011100000010001100000111000010000011011101110000111000101100011100010100000100000111000110011110001001110001111110100011011100100101010100100111001010101110111101110011000001111011011100110101111101010111001110110101111001110100000010110100011101000101111110010111010010110010110001110101000001001100011101010101010110110111010110100101011101110101111101000010011101100100000110100111011010001110000001110110110110010100011101110010001101010111011101101100010001110111101101000001011101111111101010110111100001000000001001111000100001000111011110001100011110100111100100001001101001111001010010100111011110011000101000010111100111001000100101111010000001011110011110100100001000000111101001111100111101111010101101101100011110101110111101010111101100100110110001111011010111001111011110111001001000000111101111000101110101111011111110001000011111000010100111110111110001011010001101111100100010010100011111001011011100010111110011100011110001111101000011110011011111010011100101110111110101100010100001111101100010100101011111011011000011110111110111010110010101111101111110101001011111100001110110000111111000111111010101111110010111111101011111100111111100110111111010011101010001111110101110100011011111101101010111010111111011110000010101111111000010011000011111110010000110000111111100111000010101111111010011011101011111110110001000100111111101110101010001111111100001110010011111111001011111000111111110100111001001111111101101010101011111111100001001000111111111001110000001111111110110000111011111111110000110110111111111101001110001111111111100001000011111111111011000010111111111111010011001111111111111011000011111111111111101010111111111111111111101111111111111110101011111111111110110000111111111111010011001111111111101100001011111111111000010000111111111101001110001111111111000011011011111111101100001110111111111001110000001111111110000100100011111111011010101010111111110100111001001111111100101111100011111111000011100100111111101110101010001111111011000100010011111110100110111010111111100111000010101111111001000011000011111110000100110000111111011110000010101111110110101011101011111101011101000110111111010011101010001111110011111110011011111100101111111010111111000111111010101111110000111011000011111011111101010010111110111010110010101111101101100001111011111011000101001010111110101100010100001111101001110010111011111010000111100110111110011100011110001111100101101110001011111001000100101000111110001011010001101111100001010011111011110111111100010000111101111000101110101111011100100100000011110110101110011110111101100100110110001111010111011110101011110101011011011000111101001111100111101111010010000100000011110100000010111100111100111001000100101111001100010100001011110010100101001110111100100001001101001111000110001111010011110001000010001110111100001000000001001110111111110101011011101111011010000010111011101101100010001110111001000110101011101101101100101000111011010001110000001110110010000011010011101011111010000100111010110100101011101110101010101011011011101010000010011000111010010110010110001110100010111111001011101000000101101000111001110110101111001110011010111110101011100110000011110110111001010101110111101110010010101010010011100011111101000110111000110011110001001110001010000010000011100001110001011000111000010000011011101110000001000110000011011111100000110000110111101011110111101101110111110110101011011101001011010100110111000110000110101101101110010100000011011010110001000100110110011111001001001101100100011110010011011000010010000100110101110111000000001101011010010101110011010101101110011000110101001101101100101101001111111010101011010011000110000010110100100011001110101101000101001101001011010000011001001010110011110111101000001100111010001101100011001101100111101110110011001010111001101100101110111011111011001010110001110110110010011101000100001100100011011000101011000111110111100100110001101110001000101100010111100011111011000100111000111110110000111110000111101100001011011110001011000001110110000110110000001101000011001011111111000111010010111110101111000000101111011010111011101011110010011111111010111011100011110010101110100111110010001011100101101000001010111000010100100000101101110011101000001011011000100000011010110101000001001110101100111110011110101011001011001000110010110001101010000000101100001000010110101010111101100001100010101110001110111100101011010001010001101010101111101011010010101010110000000110101010011001010000001010100001100101111010100111001101100100101001100000010100001010010011010010001010100011100111011010101000100110011110001010000100101111111010011111111101101100100111101011110000001001110101111111110010011100010000100000100110110000001011001001100111000001111010011000011111111010100101110011110000001001010111110110110010010100101100000010100100110110100000101001001000011110101010010000110100111100100011111000011110001000111000111001110010001100111010101100100010111001101001101000101001001000101010001000111101011000100001111010000100101000011001001011100010000100111101001000100000111001110000101000001001000010101010000000111001111110011111111000101111000111111000101110100001111100110100000000011110110111000001100111101000001111100001111000101011010110011101110100101000100111010111100101110001110100100000000100011100110001100110100111000110110001111001110000010010010010011011101101111100100110110101110100010001101100000010000010011010101001101100100110100100101101000001100111101111011110011001100100110111000110010011011100101001100011011010101000011000011111011110000110000010000011100001011111000011101010010111011001100011000101110000100010000001011010101010100110010110010011000111100101011110111000101001010110001111100110010101001100001101100101001101000111100001010001110010101110010100000100110101100100111011001111010001001101010100000100010010111101000010000100101001010000000001001000110011101110010001110100110100000100010111001010100001000100010001110100010000101100001101100100000100111110111000111111101110011100001111100011001111100011110010101101100000111011001001101010001110011001111100100011100000010111000000110110100011100110001101010000010101000011001101111011101000110001111100010110001100000110011011000010111011011011101000101101010100000010001010111100010000100010101000110111110000101000101010101110001001110001110111000010010110010000001000100100000000100010001000100111001111100010000011100101010000011111010101100100000111011100011100000001110000110111100000011010101001111100000110010001011110100001011110000111011000010101111101101100000101000110011000000001001011010101001000010001010001000000000011111011001011000000111000100001010000001100100011111100000010101111111000000000100101101100010000000111110110100100000001100100100001100000010010110110010000000011001001000100000000011001001000100000000000000000000; // (isignal)
   initial
     memory = 20480'b11111111001101101111111111100110110111101111110110100100111011111100110110111101111111000001001011101111101101001001111011111010100000010000111110011011100000101111100011101111011011111000001001101010111101110101111000001111011010010101011111110101110011010000111101010000010010101111010000111100010111110011011101000011111100101010110000101111000111100100010011110001000111001000111100000101010011101110111110001101011011101110110001100001111011011111111011111110110100110111111111101100011100010010111010111010101010011110101011100100001011101010000111011111111010010101011111111110100010010010001111100111110011001010111001110000011101011110011001000010001111100101011111010110111001001011100011011110001111110100100011100011001100000111111000100110110010111110000110101001010011100000111001100001111000000010001100101101111101100000100111011110100111100101110111011101110001101101110100011010110011011100010110011000110110111001100010011101101011011000000011011010000101111100110110010101011111101101100010011000011011010111110110010101110101110001101010011101011001011100010011010101100111100101110101001110000011011101010000100011101111010011011001110001110100101010101011011101000111101111000011010001001100111010110100000111100010111100111110111110010011001111000001000100110011100100101011001100110110010001101111001100110110010010110011000010000100011100101101101001100011001010101100100111110010011111101111111100100101000101111011001000100100000111110001111101101101111100011100100111000111000110011100110011110001011011111111101100010100001101001011000100010110101111110000111010100101011100001011111000010011000010010001111101110000011001100000001100000011101000110011000000001110100010101111111000110000011011111011011110101110111110001100011111101111011000010111001011110011011010010010111100001011110111101110111000010101001011101011011011101110111010001100101101101110011000101010101011100011100011001010111000001111000100101101111001011000101011011011110000101110110110010010111111101101011010011111111011010100000100101010110100011000100000101100111100000000111011001100011111000110110010011111101010101100011101111100001011000101000000001010110000101000100000101100000000010010101010111101101000000110101110110011000100101011100011000100111010110110010110111110101100111111011000101011000110010011101010101111001101000110101011001101100000101010101001111111011010101000001010011010101001011101011101101010001110001000101010100001001111010010100111101111010011101001110010110000001010011010011011101010100110000011000011101001010111110110011010010011101111110110100100011000110000101000111101011100001010001101001011111110100010110000011100101000100011100001111010000110110000000110100001001010001001101000001010001000001010000000011100011010011111100101111010100111110001001111011001111010010000111110011110000011110001100111011000111000011001110100001110000110011100100011101111100111000001000011101001101110010011101110011011000101111000100110101001110001011001101000100010000110011001101010001101100110010011000010011001100010111001010010011000010000110000100101111100110110111001011101011001011110010110111001100011100101100111001111111001011000000010101110010101100100100111100101010010001101001001010010110101001010010100010010000000100100111101101111101001001101110000111010010011000001101110100100101001110111101001001000110110000010010001110011110011100100010110100101101001000100000100101110010000101000010001100100000011111010001000111111011101000010001111011111001001100011110001110101001000111010111111000010001110011000011110100011100000010111011000110110101010111010001101010100010001100011001111100001011000110010100000101110001100010010100010100010111111010011001000101110100000011110001011010011010100100010101111101101001000101010101010010110001010010110101001100010100000101111101000100110111110011010001001011100100000100010010010011011001000100011011100101110001000100100111100100010000100101111111000100000000101010110000111101111111110100001110111101110011000011100111000011010000110111101100110100001101011010110011000011001110101111110000110001101110111100001011111101000101000010110111110000010000101100000110001100001010100100101001000010100010000101110000100110110010100100001001010001100011000010001101110000010000100001110100011100001000000011110001000001111010110000110000011101001011101100000110111011011001000001101001000111110000011000111000100100000101111000011011000001011000110100110000010100111011000100000100111010110111000001001001111000110000010001010011011100000100000010101111000000111100010100010000001110000001011100000011010000000111000000110000000110110000001011000101100100000010100010111011000000100101010001110000001000011111011100000001111011010001000000011011110100010000000110001111011100000001011001000111000000010011101111010000000100010101100100000000111100011101000000001101000010010000000010110001110100000000100101010111000000000111101110010000000001100100000100000000010011110011000000000011110010110000000000101100100100000000000111110001000000000001001111110000000000001011010100000000000001010001000000000000000101110000000000000000001100000000000000010111000000000000010100010000000000001011010100000000000100111111000000000001111100010000000000101100100100000000001111001011000000000100111100110000000001100100000100000000011110111001000000001001010101110000000010110001110100000000110100001001000000001111000111010000000100010101100100000001001110111101000000010110010001110000000110001111011100000001101111010001000000011110110100010000001000011111011100000010010101000111000000101000101110110000001011000101100100000011000000011011000000110100000001110000001110000001011100000011110001010001000001000000101011110000010001010011011100000100100111100011000001001110101101110000010100111011000100000101100011010011000001011110000110110000011000111000100100000110100100011111000001101110110110010000011101001011101100000111101011000011000010000000111100010000100001110100011100001000110111000001000010010100011000110000100110110010100100001010001000010111000010101001001010010000101100000110001100001011011111000001000010111111010001010000110001101110111100001100111010111111000011010110101100110000110111101100110100001110011100001101000011101111011100110000111101111111110100010000000010101011000100001001011111110001000100100111100100010001101110010111000100100100110110010001001011100100000100010011011111001101000101000001011111010001010010110101001100010101010101001011000101011111011010010001011010011010100100010111010000001111000101111110100110010001100010010100010100011001010000010111000110011111000010110001101010100010001100011011010101011101000111000000101110110001110011000011110100011101011111100001000111100011101010010001111011111001001100011111101110100001001000000111110100010010000101000010001100100010000010010111001000101101001011010010001110011110011100100100011011000001001001010011101111010010011000001101110100100110111000011101001001111011011111010010100010010000000100101001011010100101001010100100011010010010101100100100111100101100000001010111001011001110011111110010110111001100011100101110101100101111001011111001101101110011000010000110000100110001011100101001001100100110000100110011001101010001101100110100010001000011001101010011100010110011011000101111000100110111001001110111001110000010000111010011100100011101111100111010000111000011001110110001110000110011110000011110001100111101001000011111001111100010011110110011111100101111010101000000001110001101010000010100010000010100001001010001001101000011011000000011010001000111000011110100010110000011100101000110100101111111010001111010111000010100100011000110000101001001110111111011010010101111101100110100110000011000011101001101001101110101010011100101100000010100111101111010011101010000100111101001010100011100010001010101001011101011101101010100000101001101010101010011111110110101011001101100000101010111100110100011010110001100100111010101100111111011000101011011001011011111010111000110001001110101110110011000100101011110110100000011011000000000100101010110000101000100000101100010100000000101011000111011111000010110010011111101010101100110001111100011011001111000000001110110100011000100000101101010000010010101011010110100111111110110110010010111111101101101111000010111011011110010110001010111000001111000100101110001110001100101011100110001010101010111010001100101101101110101101101110111011101110000101010010111100001011110111101111001101101001001011110110000101110010111110001100011111101111101101111010111011111110001100000111000000001110100010110000001110100011001100000110011000000011000010010001111101110000101111100001001100001110101001010111000100010110101111110001010000110100101100010110111111111011000110011100110011110001110010011100011100011111011011011111001000100100000111110010010100010111101100100111111011111111001010101100100111110010110110100110001100110000100001000111001100110110010010110011011001000110111100111001001010110011001111000001000100110011111011111001001101000001111000101111010001001100111010110100011110111100001101001010101010110111010011011001110001110101000010001110111101010011100000110111010101100111100101110101100101110001001101011100011010100111010111110110010101110110001001100001101101100101010111111011011010000101111100110110101101100000001101101110011000100111011100010110011000110111010001101011001101110111011100011011011110100111100101110111110110000010011110000000100011001011100000111001100001111000011010100101001110001001101100101111100011001100000111111000111111010010001110010010111000110111100101011111010110111001100100001000111110011100000111010111100111110011001010111010001001001000111110100101010111111111101010000111011111111010101110010000101110101110101010100111101100011100010010111011010011011111111110110111111110111111101110110001100001111011111000110101101111000001010100111011110001000111001000111100011110010001001111001010101100001011110011011101000011111101000011110001011111010100000100101011110101110011010000111101101001010101111111011101011110000011111000001001101010111110001110111101101111100110111000001011111010100000010000111110110100100111101111110000010010111011111100110110111101111111011010010011101111111001101101111011111111001101101111000000000000000000000000000011001001000100000001100100100010000000100101101100100000001100100100001100000011111011010010000001001011011000100000010101111111000000000110010001111110000001110001000010100000011111011001011000001000101000100000000010010110101010010000101000110011000000001010111110110110000010111100001110110000110010001011110100001101010100111110000011100001101111000000111011100011100000001111101010110010000100000111001010100001000100111001111100010010000000010001000100101100100000010001001110001110111000010100010101010111000101010001101111100001010111100010000100010110101010000001000101110110110111010001100000110011011000011000111110001011000110011011110111010001101010000010101000011011010001110011000111000000101110000001110011001111100100011101100100110101000111100101011011000001111100011001111100011111110111001110001000001001111101110010000101100001101100100010001000111010001000101110010101000010001110100110100000100100011001110111001001010010100000000010010111101000010000100110101010000010001001110110011110100010100000100110101100101000111001010111001010011010001111000010101001100001101100101011000111110011001010111101110001010010110010011000111100101101010101010011001011100001000100000010111011001100011000101111100001110101001100000100000111000011000011111011110000110001101101010100001100100110111001010011001100100110111000110011110111101111001101001001011010000011010101001101100100110110000001000001001101101011101000100011011101101111100100111000001001001001001110001101100011110011100110001100110100111010010000000010001110101111001011100011101110100101000100111100010101101011001111010000011111000011110110111000001100111110011010000000001111110001011101000011111111000101111001000000011100111111010000010010000101010100000111001110000101000010011110100100010000110010010111000100001111010000100101000100011110101100010001010010010001010100010111001101001101000110011101010110010001110001110011100100011111000011110001001000011010011110010010010000111101010100100110110100000101001010010110000001010010101111101101100100101110011110000001001100001111111101010011001110000011110100110110000001011001001110001000010000010011101011111111100100111101011110000001001111111110110110010100001001011111110101000100110011110001010001110011101101010100100110100100010101001100000010100001010011100110110010010101000011001011110101010011001010000001010101011000000011010101011111010110100101011010001010001101010111000111011110010101111011000011000101100001000010110101011000110101000000010110010110010001100101100111110011110101011010100000100111010110110001000000110101101110011101000001011100001010010000010111001011010000010101110100111110010001011101110001111001010111100100111111110101111011010111011101011111010111100000010111111110001110100110000001101000011001100000111011000011011000010110111100010110000111110000111101100010011100011111011000101111000111110110001101110001000101100011111011110010011001000110110001010110010011101000100001100101011000111011011001011101110111110110011001010111001101100110110011110111011001110100011011000110011110111101000001101000001100100101011010001010011010010110100100011001110101101001100011000001011010011111110101010110101001101101100101101010110111001100011010110100101011100110101110111000000001101100001001000010011011001000111100100110110011111001001001101101011000100010011011011100101000000110111000110000110101101110100101101010011011101111101101010110111101011110111101101111110000011000011100000010001100000111000010000011011101110000111000101100011100010100000100000111000110011110001001110001111110100011011100100101010100100111001010101110111101110011000001111011011100110101111101010111001110110101111001110100000010110100011101000101111110010111010010110010110001110101000001001100011101010101010110110111010110100101011101110101111101000010011101100100000110100111011010001110000001110110110110010100011101110010001101010111011101101100010001110111101101000001011101111111101010110111100001000000001001111000100001000111011110001100011110100111100100001001101001111001010010100111011110011000101000010111100111001000100101111010000001011110011110100100001000000111101001111100111101111010101101101100011110101110111101010111101100100110110001111011010111001111011110111001001000000111101111000101110101111011111110001000011111000010100111110111110001011010001101111100100010010100011111001011011100010111110011100011110001111101000011110011011111010011100101110111110101100010100001111101100010100101011111011011000011110111110111010110010101111101111110101001011111100001110110000111111000111111010101111110010111111101011111100111111100110111111010011101010001111110101110100011011111101101010111010111111011110000010101111111000010011000011111110010000110000111111100111000010101111111010011011101011111110110001000100111111101110101010001111111100001110010011111111001011111000111111110100111001001111111101101010101011111111100001001000111111111001110000001111111110110000111011111111110000110110111111111101001110001111111111100001000011111111111011000010111111111111010011001111111111111011000011111111111111101010111111111111111111101111111111111110101011111111111110110000111111111111010011001111111111101100001011111111111000010000111111111101001110001111111111000011011011111111101100001110111111111001110000001111111110000100100011111111011010101010111111110100111001001111111100101111100011111111000011100100111111101110101010001111111011000100010011111110100110111010111111100111000010101111111001000011000011111110000100110000111111011110000010101111110110101011101011111101011101000110111111010011101010001111110011111110011011111100101111111010111111000111111010101111110000111011000011111011111101010010111110111010110010101111101101100001111011111011000101001010111110101100010100001111101001110010111011111010000111100110111110011100011110001111100101101110001011111001000100101000111110001011010001101111100001010011111011110111111100010000111101111000101110101111011100100100000011110110101110011110111101100100110110001111010111011110101011110101011011011000111101001111100111101111010010000100000011110100000010111100111100111001000100101111001100010100001011110010100101001110111100100001001101001111000110001111010011110001000010001110111100001000000001001110111111110101011011101111011010000010111011101101100010001110111001000110101011101101101100101000111011010001110000001110110010000011010011101011111010000100111010110100101011101110101010101011011011101010000010011000111010010110010110001110100010111111001011101000000101101000111001110110101111001110011010111110101011100110000011110110111001010101110111101110010010101010010011100011111101000110111000110011110001001110001010000010000011100001110001011000111000010000011011101110000001000110000011011111100000110000110111101011110111101101110111110110101011011101001011010100110111000110000110101101101110010100000011011010110001000100110110011111001001001101100100011110010011011000010010000100110101110111000000001101011010010101110011010101101110011000110101001101101100101101001111111010101011010011000110000010110100100011001110101101000101001101001011010000011001001010110011110111101000001100111010001101100011001101100111101110110011001010111001101100101110111011111011001010110001110110110010011101000100001100100011011000101011000111110111100100110001101110001000101100010111100011111011000100111000111110110000111110000111101100001011011110001011000001110110000110110000001101000011001011111111000111010010111110101111000000101111011010111011101011110010011111111010111011100011110010101110100111110010001011100101101000001010111000010100100000101101110011101000001011011000100000011010110101000001001110101100111110011110101011001011001000110010110001101010000000101100001000010110101010111101100001100010101110001110111100101011010001010001101010101111101011010010101010110000000110101010011001010000001010100001100101111010100111001101100100101001100000010100001010010011010010001010100011100111011010101000100110011110001010000100101111111010011111111101101100100111101011110000001001110101111111110010011100010000100000100110110000001011001001100111000001111010011000011111111010100101110011110000001001010111110110110010010100101100000010100100110110100000101001001000011110101010010000110100111100100011111000011110001000111000111001110010001100111010101100100010111001101001101000101001001000101010001000111101011000100001111010000100101000011001001011100010000100111101001000100000111001110000101000001001000010101010000000111001111110011111111000101111000111111000101110100001111100110100000000011110110111000001100111101000001111100001111000101011010110011101110100101000100111010111100101110001110100100000000100011100110001100110100111000110110001111001110000010010010010011011101101111100100110110101110100010001101100000010000010011010101001101100100110100100101101000001100111101111011110011001100100110111000110010011011100101001100011011010101000011000011111011110000110000010000011100001011111000011101010010111011001100011000101110000100010000001011010101010100110010110010011000111100101011110111000101001010110001111100110010101001100001101100101001101000111100001010001110010101110010100000100110101100100111011001111010001001101010100000100010010111101000010000100101001010000000001001000110011101110010001110100110100000100010111001010100001000100010001110100010000101100001101100100000100111110111000111111101110011100001111100011001111100011110010101101100000111011001001101010001110011001111100100011100000010111000000110110100011100110001101010000010101000011001101111011101000110001111100010110001100000110011011000010111011011011101000101101010100000010001010111100010000100010101000110111110000101000101010101110001001110001110111000010010110010000001000100100000000100010001000100111001111100010000011100101010000011111010101100100000111011100011100000001110000110111100000011010101001111100000110010001011110100001011110000111011000010101111101101100000101000110011000000001001011010101001000010001010001000000000011111011001011000000111000100001010000001100100011111100000010101111111000000000100101101100010000000111110110100100000001100100100001100000010010110110010000000011001001000100000000011001001000100000000000000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:1063:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:1063:28 */
   reg [19:0] n171[1023:0] ; // memory
   initial begin
     n171[1023] = 20'b11111111001101101111;
@@ -1885,8 +1885,8 @@ module bram_dp_sin_lut_Brtl_20_10
   always @(posedge clk_a)
     if (1'b1)
       n176 <= n171[addr_a];
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:1070:28 */
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:1070:27 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:1070:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\bram_dp_sin_lut.vhdl:1070:27 */
 endmodule
 
 module zector_dds_ip_Brtl_32_10_20_16_8
@@ -1987,200 +1987,200 @@ module zector_dds_ip_Brtl_32_10_20_16_8
   assign y = n130; //(module output)
   assign lut_addr_0 = n56; //(module output)
   assign lut_addr_1 = n59; //(module output)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:39:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:39:12 */
   always @*
     accumulator = n131; // (isignal)
   initial
     accumulator = 32'b00000000000000000000000000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:41:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:41:12 */
   always @*
     phase_word = n55; // (isignal)
   initial
     phase_word = 32'b00000000000000000000000000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:44:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:44:12 */
   assign fraction_reg = n132; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:47:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:47:12 */
   assign diff_reg = n133; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:48:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:48:12 */
   assign y0_d1 = n134; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:49:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:49:12 */
   assign fraction_d1 = n135; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:52:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:52:12 */
   assign product_reg = n136; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:53:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:53:12 */
   assign y0_d2 = n137; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:55:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:55:12 */
   assign y0_d3 = n138; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:59:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:59:12 */
   assign interp_sum = n63; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:60:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:60:12 */
   assign interp_reg = n139; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:65:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:65:12 */
   assign dac_reg = n140; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:71:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:71:12 */
   assign interp_lo_prod = n141; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:72:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:72:12 */
   assign interp_hi_prod = n142; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:75:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:75:12 */
   assign scale_lo_product = n143; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:76:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:76:12 */
   assign scale_hi_product = n144; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:79:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:79:12 */
   assign scale_combined = n68; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:81:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:81:12 */
   assign scale_reg = n145; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:82:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:82:12 */
   assign m_reg = n146; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:83:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:83:12 */
   assign phase_reg = n147; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:120:31 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:120:31 */
   assign n55 = accumulator + phase_reg;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:123:29 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:123:29 */
   assign n56 = phase_word[31:22]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:124:29 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:124:29 */
   assign n57 = phase_word[31:22]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:124:90 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:124:90 */
   assign n59 = n57 + 10'b0000000001;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:127:30 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:127:30 */
   assign n60 = {{9{y0_d3[20]}}, y0_d3}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:127:19 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:127:19 */
   assign n62 = n60 << 31'b0000000000000000000000000001000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:127:92 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:127:92 */
   assign n63 = n62 + product_reg;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:133:20 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:133:20 */
   assign n64 = {{8{scale_hi_product[28]}}, scale_hi_product}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:133:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:133:9 */
   assign n66 = n64 << 31'b0000000000000000000000000001000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:134:11 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:134:11 */
   assign n67 = {{7{scale_lo_product[29]}}, scale_lo_product}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:134:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:134:9 */
   assign n68 = n66 + n67;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:140:39 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:140:39 */
   assign n71 = accumulator + m_reg;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:143:39 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:143:39 */
   assign n72 = phase_word[21:14]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:146:25 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:146:25 */
   assign n73 = {{1{lut_di_1[19]}}, lut_di_1}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:146:62 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:146:62 */
   assign n74 = {{1{lut_di_0[19]}}, lut_di_0}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:146:60 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:146:60 */
   assign n75 = n73 - n74;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:147:22 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:147:22 */
   assign n76 = {{1{lut_di_0[19]}}, lut_di_0}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:52 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:52 */
   assign n77 = diff_reg[9:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:42 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:42 */
   assign n79 = {1'b0, n77};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:79 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:79 */
   assign n81 = {1'b0, fraction_d1};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:66 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:66 */
   assign n82 = {{9{n79[10]}}, n79}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:66 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:66 */
   assign n83 = {{11{n81[8]}}, n81}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:66 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:158:66 */
   assign n84 = $signed(n82) * $signed(n83); // smul
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:39 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:39 */
   assign n85 = diff_reg[20:10]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:66 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:66 */
   assign n87 = {1'b0, fraction_d1};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:54 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:54 */
   assign n88 = {{9{n85[10]}}, n85}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:54 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:54 */
   assign n89 = {{11{n87[8]}}, n87}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:54 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:159:54 */
   assign n90 = $signed(n88) * $signed(n89); // smul
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:28 */
   assign n91 = {{10{interp_lo_prod[19]}}, interp_lo_prod}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:68 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:68 */
   assign n92 = {{10{interp_hi_prod[19]}}, interp_hi_prod}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:57 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:57 */
   assign n94 = n92 << 31'b0000000000000000000000000001010;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:55 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:162:55 */
   assign n95 = n91 + n94;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:170:44 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:170:44 */
   assign n96 = interp_sum[28:8]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:52 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:52 */
   assign n97 = scale_reg[7:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:41 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:41 */
   assign n99 = {1'b0, n97};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:28 */
   assign n100 = {{9{interp_reg[20]}}, interp_reg}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:28 */
   assign n101 = {{21{n99[8]}}, n99}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:174:28 */
   assign n102 = $signed(n100) * $signed(n101); // smul
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:39 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:39 */
   assign n103 = scale_reg[15:8]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:28 */
   assign n104 = {{8{interp_reg[20]}}, interp_reg}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:28 */
   assign n105 = {{21{n103[7]}}, n103}; // sext
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:28 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:177:28 */
   assign n106 = $signed(n104) * $signed(n105); // smul
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:181:38 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:181:38 */
   assign n107 = scale_combined[34:27]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:29 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:29 */
   assign n108 = dac_reg[7]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:18 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:18 */
   assign n109 = ~n108;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:72 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:72 */
   assign n110 = dac_reg[6:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:46 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:182:46 */
   assign n111 = {n109, n110};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n130 <= n111;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n131 <= n71;
   initial
     n131 = 32'b00000000000000000000000000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n132 <= n72;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n133 <= n75;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n134 <= n76;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n135 <= fraction_reg;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n136 <= n95;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n137 <= y0_d1;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n138 <= y0_d2;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n139 <= n96;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n140 <= n107;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n141 <= n84;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n142 <= n90;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n143 <= n102;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:138:9 */
   always @(posedge clk)
     n144 <= n106;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:110:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:110:9 */
   always @(posedge clk)
     n145 <= scale;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:110:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:110:9 */
   always @(posedge clk)
     n146 <= m;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:110:9 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\Zector_DDS_IP.vhdl:110:9 */
   always @(posedge clk)
     n147 <= phase;
 endmodule
@@ -2241,28 +2241,28 @@ module spi_slave_top
   wire [31:0] n36;
   assign spi_miso = \spi_slave.o_miso ; //(module output)
   assign dac_out = dds_out; //(module output)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:96:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:96:12 */
   assign w_spi_mosi = spi_mosi; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:97:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:97:12 */
   assign w_spi_clk = spi_clk; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:98:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:98:12 */
   assign w_spi_ncs = spi_ncs; // (signal)
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:103:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:103:12 */
   always @*
     data_reg_0 = \rfs_sch.o_do_0 ; // (isignal)
   initial
     data_reg_0 = 32'b00000000000000000000000000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:104:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:104:12 */
   always @*
     data_reg_1 = \rfs_sch.o_do_1 ; // (isignal)
   initial
     data_reg_1 = 32'b00000000000000000000000000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:105:12 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:105:12 */
   always @*
     data_reg_2 = \rfs_sch.o_do_2 ; // (isignal)
   initial
     data_reg_2 = 32'b00000000000000000000000000000000;
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:110:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:110:5 */
   CC_PLL #(
     .REF_CLK(1.0e1),
     .OUT_CLK(1.0e2),
@@ -2285,11 +2285,11 @@ module spi_slave_top
     .CLK180(),
     .CLK270(),
     .CLK_REF_OUT());
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:137:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:137:5 */
   CC_BUFG sys_clock_buffer (
     .I(clk_100_mhz),
     .O(sys_clk));
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:181:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:181:5 */
   zector_dds_ip_Brtl_32_10_20_16_8 dds_inst (
     .clk(clk_10_MHz),
     .lut_di_0(lut_data_a),
@@ -2300,9 +2300,9 @@ module spi_slave_top
     .y(dds_out),
     .lut_addr_0(lut_addr_a),
     .lut_addr_1(lut_addr_b));
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:200:39 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:200:39 */
   assign n10 = data_reg_2[15:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:212:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:212:5 */
   bram_dp_sin_lut_Brtl_20_10 bram_inst (
     .we_a(1'b0),
     .we_b(1'b0),
@@ -2314,7 +2314,7 @@ module spi_slave_top
     .addr_b(lut_addr_b),
     .do_a(lut_data_a),
     .do_b(lut_data_b));
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:232:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:232:5 */
   spi_slave_ctrl3_ip_Brtl_32_7_1 spi_slave (
     .i_clk(sys_clk),
     .i_spi_clk(w_spi_clk),
@@ -2326,9 +2326,9 @@ module spi_slave_top
     .o_en(spi_bram_en),
     .o_addr(spi_bram_addr),
     .o_data(spi_bram_data));
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:249:37 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:249:37 */
   assign n25 = bram_spi_data[31:0]; // extract
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:252:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:252:5 */
   zector_40k_dp_bram_ip_Brtl_40_10 cfg_bram (
     .clk_a(sys_clk),
     .clk_b(clk_10_MHz),
@@ -2342,11 +2342,11 @@ module spi_slave_top
     .di_b(40'b0000000000000000000000000000000000000000),
     .do_a(bram_spi_data),
     .do_b(rfs_bram_data));
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:264:30 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:264:30 */
   assign n27 = {3'b000, spi_bram_addr};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:265:36 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:265:36 */
   assign n29 = {8'b00000000, spi_bram_data};
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:279:5 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:279:5 */
   rfs_sch_test_Brtl rfs_sch (
     .i_clk(clk_10_MHz),
     .i_di(n36),
@@ -2357,7 +2357,7 @@ module spi_slave_top
     .o_do_2(\rfs_sch.o_do_2 ),
     .o_addr_bram(rfs_bram_addr),
     .o_addr_cfg());
-  /*# C:\Users\jakob\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:286:41 */
+  /*# C:\Users\TK32FF\Desktop\GIT_FOLDER\HDL_PLAYGROUND\SPI_SLAVE_CONTROLLER\src\spi_slave_top.vhdl:286:41 */
   assign n36 = rfs_bram_data[31:0]; // extract
 endmodule
 

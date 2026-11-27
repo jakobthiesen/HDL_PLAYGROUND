@@ -71,6 +71,7 @@ Net "dac_out[2]" Loc = "IO_SA_B5";
 Net "dac_out[1]" Loc = "IO_SA_A8";
 Net "dac_out[0]" Loc = "IO_SA_B8";
 
-#start floorplanning
-#top spi_slave; pB:x0y0x140y130
-#end floorplanning
+start floorplanning
+top spi_slave; pB:x120y0x140y15
+top dds_inst; pB:x0y30x25y100
+end floorplanning
